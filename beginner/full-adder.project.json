@@ -2,7 +2,7 @@
   "format": "digital-logic-simulator-project",
   "version": 4,
   "name": "full-adder.project",
-  "savedAt": "2026-11-19T17:40:05.951Z",
+  "savedAt": "2026-11-19T18:00:47.748Z",
   "circuit": {
     "components": [
       {
@@ -231,30 +231,6 @@
         "name": "JUNCTION",
         "pos": {
           "x": -1.0517673007436965,
-          "y": 0.11663925754046289
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "state": {
-            "bitWidth": 1
-          }
-        }
-      },
-      {
-        "id": "JUNCTION-9",
-        "name": "JUNCTION",
-        "pos": {
-          "x": -0.7663521706815901,
           "y": 0.11663925754046289
         },
         "groupName": null,
@@ -552,7 +528,7 @@
         "id": "JUNCTION-20",
         "name": "JUNCTION",
         "pos": {
-          "x": -0.7663521706815901,
+          "x": -1.0517673007436965,
           "y": 1.379896654746922
         },
         "groupName": null,
@@ -980,27 +956,27 @@
       },
       {
         "id": "wire5",
-        "startComponentIndex": 16,
+        "startComponentIndex": 15,
         "startTerminalIndex": 0,
-        "endComponentIndex": 26,
+        "endComponentIndex": 25,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_XOR_GATE-17-input-1-1",
         "endTerminalId": "JUNCTION-27"
       },
       {
         "id": "wire6",
-        "startComponentIndex": 26,
+        "startComponentIndex": 25,
         "startTerminalIndex": 0,
-        "endComponentIndex": 23,
+        "endComponentIndex": 22,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-27",
         "endTerminalId": "JUNCTION-24"
       },
       {
         "id": "wire7",
-        "startComponentIndex": 23,
+        "startComponentIndex": 22,
         "startTerminalIndex": 0,
-        "endComponentIndex": 15,
+        "endComponentIndex": 14,
         "endTerminalIndex": 2,
         "startTerminalId": "JUNCTION-24",
         "endTerminalId": "Terminal_XOR_GATE-16-output-1-1"
@@ -1009,79 +985,79 @@
         "id": "wire8",
         "startComponentIndex": 4,
         "startTerminalIndex": 0,
-        "endComponentIndex": 12,
+        "endComponentIndex": 11,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_AND_GATE-5-input-1-1",
         "endTerminalId": "JUNCTION-13"
       },
       {
         "id": "wire9",
-        "startComponentIndex": 12,
+        "startComponentIndex": 11,
         "startTerminalIndex": 0,
-        "endComponentIndex": 23,
+        "endComponentIndex": 22,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-13",
         "endTerminalId": "JUNCTION-24"
       },
       {
         "id": "wire10",
-        "startComponentIndex": 16,
+        "startComponentIndex": 15,
         "startTerminalIndex": 1,
-        "endComponentIndex": 19,
+        "endComponentIndex": 18,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_XOR_GATE-17-input-2-1",
         "endTerminalId": "JUNCTION-20"
       },
       {
         "id": "wire11",
-        "startComponentIndex": 19,
+        "startComponentIndex": 18,
         "startTerminalIndex": 0,
-        "endComponentIndex": 8,
+        "endComponentIndex": 7,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-20",
-        "endTerminalId": "JUNCTION-9"
+        "endTerminalId": "JUNCTION-8"
       },
       {
         "id": "wire12",
-        "startComponentIndex": 8,
+        "startComponentIndex": 7,
         "startTerminalIndex": 0,
         "endComponentIndex": 4,
         "endTerminalIndex": 1,
-        "startTerminalId": "JUNCTION-9",
+        "startTerminalId": "JUNCTION-8",
         "endTerminalId": "Terminal_AND_GATE-5-input-2-1"
       },
       {
         "id": "wire13",
         "startComponentIndex": 3,
         "startTerminalIndex": 0,
-        "endComponentIndex": 9,
+        "endComponentIndex": 8,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_AND_GATE-4-input-1-1",
         "endTerminalId": "JUNCTION-10"
       },
       {
         "id": "wire14",
-        "startComponentIndex": 15,
+        "startComponentIndex": 14,
         "startTerminalIndex": 0,
-        "endComponentIndex": 25,
+        "endComponentIndex": 24,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_XOR_GATE-16-input-1-1",
         "endTerminalId": "JUNCTION-26"
       },
       {
         "id": "wire15",
-        "startComponentIndex": 9,
+        "startComponentIndex": 8,
         "startTerminalIndex": 0,
-        "endComponentIndex": 25,
+        "endComponentIndex": 24,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-10",
         "endTerminalId": "JUNCTION-26"
       },
       {
         "id": "wire16",
-        "startComponentIndex": 15,
+        "startComponentIndex": 14,
         "startTerminalIndex": 1,
-        "endComponentIndex": 17,
+        "endComponentIndex": 16,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_XOR_GATE-16-input-2-1",
         "endTerminalId": "JUNCTION-18"
@@ -1090,28 +1066,19 @@
         "id": "wire17",
         "startComponentIndex": 3,
         "startTerminalIndex": 1,
-        "endComponentIndex": 10,
+        "endComponentIndex": 9,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_AND_GATE-4-input-2-1",
         "endTerminalId": "JUNCTION-11"
       },
       {
         "id": "wire18",
-        "startComponentIndex": 17,
+        "startComponentIndex": 16,
         "startTerminalIndex": 0,
-        "endComponentIndex": 10,
+        "endComponentIndex": 9,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-18",
         "endTerminalId": "JUNCTION-11"
-      },
-      {
-        "id": "wire19",
-        "startComponentIndex": 8,
-        "startTerminalIndex": 0,
-        "endComponentIndex": 7,
-        "endTerminalIndex": 0,
-        "startTerminalId": "JUNCTION-9",
-        "endTerminalId": "JUNCTION-8"
       },
       {
         "id": "wire20",
@@ -1124,18 +1091,18 @@
       },
       {
         "id": "wire21",
-        "startComponentIndex": 10,
+        "startComponentIndex": 9,
         "startTerminalIndex": 0,
-        "endComponentIndex": 11,
+        "endComponentIndex": 10,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-11",
         "endTerminalId": "JUNCTION-12"
       },
       {
         "id": "wire22",
-        "startComponentIndex": 25,
+        "startComponentIndex": 24,
         "startTerminalIndex": 0,
-        "endComponentIndex": 24,
+        "endComponentIndex": 23,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-26",
         "endTerminalId": "Terminal_TOGGLE_SWITCH-25-output-1-1"
@@ -1151,27 +1118,27 @@
       },
       {
         "id": "wire24",
-        "startComponentIndex": 20,
+        "startComponentIndex": 19,
         "startTerminalIndex": 0,
-        "endComponentIndex": 16,
+        "endComponentIndex": 15,
         "endTerminalIndex": 2,
         "startTerminalId": "Terminal_LED-21-input-1-1",
         "endTerminalId": "Terminal_XOR_GATE-17-output-1-1"
       },
       {
         "id": "wire25",
-        "startComponentIndex": 11,
+        "startComponentIndex": 10,
         "startTerminalIndex": 0,
-        "endComponentIndex": 18,
+        "endComponentIndex": 17,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-12",
         "endTerminalId": "JUNCTION-19"
       },
       {
         "id": "wire26",
-        "startComponentIndex": 18,
+        "startComponentIndex": 17,
         "startTerminalIndex": 0,
-        "endComponentIndex": 21,
+        "endComponentIndex": 20,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-19",
         "endTerminalId": "Terminal_TOGGLE_SWITCH-22-output-1-1"
@@ -1180,25 +1147,25 @@
         "id": "wire27",
         "startComponentIndex": 0,
         "startTerminalIndex": 0,
-        "endComponentIndex": 13,
+        "endComponentIndex": 12,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-1",
         "endTerminalId": "JUNCTION-14"
       },
       {
         "id": "wire28",
-        "startComponentIndex": 13,
+        "startComponentIndex": 12,
         "startTerminalIndex": 0,
-        "endComponentIndex": 14,
+        "endComponentIndex": 13,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-14",
         "endTerminalId": "JUNCTION-15"
       },
       {
         "id": "wire29",
-        "startComponentIndex": 14,
+        "startComponentIndex": 13,
         "startTerminalIndex": 0,
-        "endComponentIndex": 22,
+        "endComponentIndex": 21,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-15",
         "endTerminalId": "Terminal_TOGGLE_SWITCH-23-output-1-1"
@@ -1216,9 +1183,9 @@
   },
   "workspace": {
     "center": {
-      "x": 0.9897936117102917,
-      "y": 0.7868751521304895
+      "x": 0.5434843415868662,
+      "y": 1.3829667389807498
     },
-    "zoom": 1.1618342427282817
+    "zoom": 1.349858807576001
   }
 }

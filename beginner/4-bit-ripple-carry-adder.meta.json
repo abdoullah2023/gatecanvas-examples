@@ -1,0 +1,16 @@
+{
+  "id": "4-bit-ripple-carry-adder",
+  "title": "4-Bit Ripple Carry Adder",
+  "description": "Connect four full-adder stages to add two 4-bit binary numbers and an optional carry-in. Toggle A0-A3, B0-B3, and Cin to see the four sum bits and final carry-out.",
+  "category": "Arithmetic",
+  "difficulty": "intermediate",
+  "tags": [
+    "addition",
+    "binary",
+    "full-adder",
+    "ripple-carry",
+    "arithmetic",
+    "4-bit"
+  ],
+  "published": true
+}
