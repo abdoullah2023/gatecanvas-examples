@@ -434,10 +434,6 @@
       "nextLockedGroupId": 1
     }
   },
-  "history": {
-    "undoStack": [],
-    "redoStack": []
-  },
   "workspace": {
     "center": {
       "x": 0,
