@@ -1,7 +1,7 @@
 {
   "format": "digital-logic-simulator-project",
   "version": 4,
-  "name": "p1",
+  "name": "logic-gates-switches.project",
   "savedAt": "2026-11-19T12:50:54.991Z",
   "circuit": {
     "components": [
