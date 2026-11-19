@@ -1,0 +1,16 @@
+{
+  "id": "multiplexer-2to1",
+  "title": "2-to-1 Multiplexer",
+  "description": "Select between two one-bit inputs using a select signal. Toggle A, B, and S to see how NOT, AND, and OR gates route the selected input to the output LED. When S = 0, Y follows A; when S = 1, Y follows B.",
+  "category": "Data Routing",
+  "difficulty": "beginner",
+  "tags": [
+    "multiplexer",
+    "mux",
+    "data-selection",
+    "and",
+    "or",
+    "not"
+  ],
+  "published": true
+}
