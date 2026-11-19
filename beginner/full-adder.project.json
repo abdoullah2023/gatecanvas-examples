@@ -1,8 +1,8 @@
 {
   "format": "digital-logic-simulator-project",
   "version": 4,
-  "name": "full-adder.meta",
-  "savedAt": "2026-11-19T17:32:35.427Z",
+  "name": "full-adder.project",
+  "savedAt": "2026-11-19T17:40:05.951Z",
   "circuit": {
     "components": [
       {
@@ -774,7 +774,7 @@
         "name": "TEXT",
         "pos": {
           "x": -1.2959106119087496,
-          "y": 3.4245705204728996
+          "y": 2.908145734617864
         },
         "groupName": null,
         "geometry": {
@@ -1216,8 +1216,8 @@
   },
   "workspace": {
     "center": {
-      "x": 1.3053856608420495,
-      "y": 0.4425926182285388
+      "x": 0.9897936117102917,
+      "y": 0.7868751521304895
     },
     "zoom": 1.1618342427282817
   }
