@@ -1,0 +1,9 @@
+{
+  "id": "logic-gates-switches",
+  "title": "7 Logic Gates Using Switches",
+  "description": "Build all seven basic logic gates—NOT, AND, OR, NAND, NOR, XOR, and XNOR—using only Analog SPDT switches. Toggle the inputs and explore how switching circuits implement Boolean logic without built-in logic gates.",
+  "category": "Logic Gates",
+  "difficulty": "beginner",
+  "tags": ["logic gates", "switches", "spdt", "boolean logic", "not", "and", "or", "nand", "nor", "xor", "xnor"],
+  "published": true
+}

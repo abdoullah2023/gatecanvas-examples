@@ -2,15 +2,15 @@
   "format": "digital-logic-simulator-project",
   "version": 4,
   "name": "Half Adder",
-  "savedAt": "2026-11-13T14:23:42.012Z",
+  "savedAt": "2026-11-19T13:05:28.852Z",
   "circuit": {
     "components": [
       {
         "id": "TOGGLE_SWITCH-1",
         "name": "TOGGLE_SWITCH",
         "pos": {
-          "x": -2.041051776824463,
-          "y": 0.9095581559573902
+          "x": -1.7683975250323516,
+          "y": 0.9095581559573905
         },
         "groupName": null,
         "geometry": {
@@ -42,8 +42,8 @@
         "id": "TOGGLE_SWITCH-2",
         "name": "TOGGLE_SWITCH",
         "pos": {
-          "x": -2.041051776824463,
-          "y": 0.321322861839743
+          "x": -1.7683975250323516,
+          "y": 0.32132286183974335
         },
         "groupName": null,
         "geometry": {
@@ -75,8 +75,8 @@
         "id": "JUNCTION-3",
         "name": "JUNCTION",
         "pos": {
-          "x": -0.8402469452799028,
-          "y": 0.321322861839743
+          "x": -0.7679684354295038,
+          "y": 0.32132286183974335
         },
         "groupName": null,
         "geometry": {
@@ -99,8 +99,8 @@
         "id": "JUNCTION-4",
         "name": "JUNCTION",
         "pos": {
-          "x": -0.48880617060742004,
-          "y": 0.9095581559573902
+          "x": -0.488803906106841,
+          "y": 0.9095581559573905
         },
         "groupName": null,
         "geometry": {
@@ -165,7 +165,7 @@
         "name": "AND_GATE",
         "pos": {
           "x": 0.49036062321582174,
-          "y": -0.6595581559573902
+          "y": -0.5644719455960878
         },
         "groupName": null,
         "geometry": {
@@ -205,8 +205,8 @@
         "id": "JUNCTION-7",
         "name": "JUNCTION",
         "pos": {
-          "x": -0.48880617060742004,
-          "y": -0.3654405088985666
+          "x": -0.488803906106841,
+          "y": -0.2703542985372642
         },
         "groupName": null,
         "geometry": {
@@ -229,8 +229,8 @@
         "id": "JUNCTION-8",
         "name": "JUNCTION",
         "pos": {
-          "x": -0.8402469452799028,
-          "y": -0.9536758030162138
+          "x": -0.7679684354295038,
+          "y": -0.8585895926549114
         },
         "groupName": null,
         "geometry": {
@@ -253,8 +253,8 @@
         "id": "LED-9",
         "name": "LED",
         "pos": {
-          "x": 2.041051776824463,
-          "y": -0.6595581559573902
+          "x": 1.9657743427719345,
+          "y": -0.5644719455960878
         },
         "groupName": null,
         "geometry": {
@@ -279,7 +279,7 @@
         "id": "LED-10",
         "name": "LED",
         "pos": {
-          "x": 2.041051776824463,
+          "x": 1.9657743427719345,
           "y": 0.6154405088985668
         },
         "groupName": null,
@@ -306,7 +306,7 @@
         "name": "TEXT",
         "pos": {
           "x": 0,
-          "y": 1.9666667938232423
+          "y": 1.7462288289527155
         },
         "groupName": null,
         "geometry": {
@@ -425,7 +425,8 @@
         "endTerminalId": "Terminal_AND_GATE-6-output-1-1"
       }
     ],
-    "nextComponentId": 12,
+    "guides": [],
+    "nextComponentId": 14,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
@@ -436,9 +437,9 @@
   },
   "workspace": {
     "center": {
-      "x": 0,
-      "y": 0
+      "x": 1.1076465623648575,
+      "y": 0.02663353969718731
     },
-    "zoom": 1.161834242728283
+    "zoom": 2.4596031111569463
   }
 }
