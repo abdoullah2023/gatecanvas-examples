@@ -1,0 +1,15 @@
+{
+  "id": "full-adder",
+  "title": "Full Adder",
+  "description": "Add three one-bit binary inputs using XOR, AND, and OR gates. Toggle A, B, and Carry In to explore the sum and carry output.",
+  "category": "Arithmetic",
+  "difficulty": "beginner",
+  "tags": [
+    "addition",
+    "binary",
+    "xor",
+    "carry",
+    "arithmetic"
+  ],
+  "published": true
+}
