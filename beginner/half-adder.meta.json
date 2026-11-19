@@ -1,0 +1,9 @@
+{
+  "id": "half-adder",
+  "title": "Half Adder",
+  "description": "Add two one-bit inputs. Toggle A and B and watch the XOR gate produce the sum and the AND gate produce the carry.",
+  "category": "Arithmetic",
+  "difficulty": "beginner",
+  "tags": ["addition", "xor", "and"],
+  "published": true
+}

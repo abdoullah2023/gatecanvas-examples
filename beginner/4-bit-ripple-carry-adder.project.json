@@ -1,0 +1,4490 @@
+{
+  "format": "digital-logic-simulator-project",
+  "version": 4,
+  "name": "4-Bit Ripple Carry Adder",
+  "savedAt": "2026-11-19T19:04:43.771Z",
+  "circuit": {
+    "components": [
+      {
+        "id": "RADIX_CONVERTER-406",
+        "name": "RADIX_CONVERTER",
+        "pos": {
+          "x": -5.377832438048591,
+          "y": 5.899987141593577
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.7,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalSide": "right",
+          "terminalsGroup": {
+            "input-b": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true,
+            "showBinary": false,
+            "showDecimal": true,
+            "showHexadecimal": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-407",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -4.413356400573053,
+          "y": 5.899987141593577
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "RADIX_CONVERTER-408",
+        "name": "RADIX_CONVERTER",
+        "pos": {
+          "x": -5.377832438048591,
+          "y": 4.342612097328296
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.7,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalSide": "right",
+          "terminalsGroup": {
+            "input-b": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true,
+            "showBinary": false,
+            "showDecimal": true,
+            "showHexadecimal": false
+          }
+        }
+      },
+      {
+        "id": "INPUT-409",
+        "name": "INPUT",
+        "pos": {
+          "x": -5.37783243804859,
+          "y": 5.299987141593579
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 64,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true,
+            "valueBits": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      },
+      {
+        "id": "INPUT-410",
+        "name": "INPUT",
+        "pos": {
+          "x": -5.377832438048592,
+          "y": 3.742612097328294
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 64,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true,
+            "valueBits": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-411",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.0715800832025963,
+          "y": 3.8183696730858685
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-412",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -4.413356400573053,
+          "y": 4.342612097328296
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-413",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -4.413356400573053,
+          "y": 5.299987141593576
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "SPLITTER-414",
+        "name": "SPLITTER",
+        "pos": {
+          "x": -4.106660068593533,
+          "y": 3.742612097328294
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "bus": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "terminalSpacing": null,
+            "centerInput": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-415",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.7968091882232478,
+          "y": 5.224229565836001
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-416",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.711271792862753,
+          "y": 5.37574471735115
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "SPLITTER-417",
+        "name": "SPLITTER",
+        "pos": {
+          "x": -4.106660068593533,
+          "y": 5.299987141593576
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "bus": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "terminalSpacing": null,
+            "centerInput": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-418",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.127233026770195,
+          "y": 3.9698848246010208
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-419",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.1455868688097208,
+          "y": 3.6757671775421947
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-420",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.2680561057504325,
+          "y": 3.969884824601017
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "TEXT-421",
+        "name": "TEXT",
+        "pos": {
+          "x": 0.56076477673762,
+          "y": 7.305694454812387
+        },
+        "groupName": "group_1795113986416_0",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A[3:0] + B[3:0] + Cin  =  Cout : S[3:0]",
+            "fontSize": 0.28,
+            "color": "#9ac6ea",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-422",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": -1.1455868688097208,
+          "y": 5.23314222180748
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-423",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.986409947789958,
+          "y": 4.939024574748654
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-424",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.127233026770195,
+          "y": 5.527259868866302
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-425",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.882346583583742,
+          "y": 5.072714414320849
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-426",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -4.413356400573053,
+          "y": 3.742612097328294
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-427",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.1571174785630913,
+          "y": 3.66685452157072
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "TEXT-428",
+        "name": "TEXT",
+        "pos": {
+          "x": 0.56076477673762,
+          "y": 7.965694454812387
+        },
+        "groupName": "group_1795113986416_0",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "4-Bit Ripple Carry Adder",
+            "fontSize": 0.45,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-429",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.986409947789958,
+          "y": 3.3816495304833722
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-430",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.2426548739235863,
+          "y": 3.5153393700555675
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-431",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.268056105750432,
+          "y": 3.3816495304833722
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-432",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 1.0544131311902782,
+          "y": 3.9698848246010208
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-433",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 3.3816495304833722
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-434",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 3.6757671775421947
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-435",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 2.3757671775421905
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-436",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 3.6757671775421947
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "GROUND-437",
+        "name": "GROUND",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 6.225220779472171
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 2,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-438",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 5.527259868866302
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-439",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 4.264002471659843
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-440",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 4.939024574748657
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-441",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 5.23314222180748
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-442",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.1272330267701953,
+          "y": 2.04633896271271
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-443",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.9864099477899584,
+          "y": 1.458103668595058
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-444",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": -1.1455868688097213,
+          "y": 1.752221315653884
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-445",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.1455868688097213,
+          "y": 0.19484627138859878
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-446",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.1272330267701953,
+          "y": 0.4889639184474248
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-447",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 1.752221315653884
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-448",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 2.04633896271271
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-449",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 0.7830815655062509
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-450",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 1.4581036685950615
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-451",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 1.0544131311902778,
+          "y": 0.4889639184474248
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-452",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": 0.19484627138859878
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "OR_GATE-453",
+        "name": "OR_GATE",
+        "pos": {
+          "x": 2.754413131190277,
+          "y": 0.19484627138859878
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-454",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": 2.754413131190277,
+          "y": 1.752221315653884
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-455",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.9864099477899584,
+          "y": -0.09927137567022015
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-456",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -0.09927137567022015
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-457",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.454413131190277,
+          "y": 2.3757671775421905
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-458",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.0715800832025963,
+          "y": -0.09927137567022015
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-459",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.711271792862753,
+          "y": 2.04633896271271
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-460",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.580469767726414,
+          "y": 1.752221315653884
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-461",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": 0.19484627138860233
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "OR_GATE-462",
+        "name": "OR_GATE",
+        "pos": {
+          "x": 2.7544131311902778,
+          "y": 3.6757671775421947
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-463",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": 2.7544131311902778,
+          "y": 5.23314222180748
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-464",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.7430895519024565,
+          "y": 4.778596767262027
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-465",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.663765563469667,
+          "y": 4.930111918777179
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-466",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.580469767726414,
+          "y": 5.081627070292328
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-468",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.002224082845803,
+          "y": 4.342611986756637
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-469",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.781803735167986,
+          "y": 5.605869494534755
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-470",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.781803735167986,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "SPLITTER-471",
+        "name": "SPLITTER",
+        "pos": {
+          "x": 4.44049295264379,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 2,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": true,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "bus": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "terminalSpacing": null,
+            "centerInput": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-472",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.883379369901996,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-474",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": -1.1455868688097208,
+          "y": -1.7286995904997156
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-475",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.127233026770195,
+          "y": -1.4345819434408895
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-476",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.7968091882232478,
+          "y": -1.4345819434408895
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-477",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -1.1051537286114055
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-478",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -1.4345819434408895
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-479",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": 2.7544131311902786,
+          "y": -1.7286995904997156
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-480",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.454413131190277,
+          "y": -1.1051537286114055
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "RADIX_CONVERTER-481",
+        "name": "RADIX_CONVERTER",
+        "pos": {
+          "x": 5.770879369901995,
+          "y": 5.605869494534755
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.7,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-b": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true,
+            "showBinary": false,
+            "showDecimal": true,
+            "showHexadecimal": false
+          }
+        }
+      },
+      {
+        "id": "LED-482",
+        "name": "LED",
+        "pos": {
+          "x": 5.770879369901995,
+          "y": 4.342611986756637
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-483",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.986409947789958,
+          "y": -2.0228172375585416
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-484",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -1.7286995904997156
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-485",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -2.6978393406473486
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-486",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -2.0228172375585416
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-487",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 1.0544131311902787,
+          "y": -2.9919569877061747
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-488",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.1455868688097208,
+          "y": -3.2860746347650007
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-489",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.127233026770195,
+          "y": -2.9919569877061747
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-490",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -3.2860746347650007
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-491",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -3.2860746347650007
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-492",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.1571174785630913,
+          "y": -3.5801922818238268
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-493",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.986409947789958,
+          "y": -3.5801922818238268
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "OR_GATE-494",
+        "name": "OR_GATE",
+        "pos": {
+          "x": 2.7544131311902786,
+          "y": -3.2860746347650007
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-495",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -3.5801922818238268
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-496",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.663765563469667,
+          "y": -1.7286995904997156
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "TEXT-497",
+        "name": "TEXT",
+        "pos": {
+          "x": 6.994157602359014,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1.3,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Sum",
+            "fontSize": 0.22,
+            "color": "#e9e9e9",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-498",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.1272330267701953,
+          "y": -4.915502849594489
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-499",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": -1.1455868688097213,
+          "y": -5.209620496653315
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-500",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.882346583583742,
+          "y": -4.915502849594489
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XOR_GATE-501",
+        "name": "XOR_GATE",
+        "pos": {
+          "x": 2.754413131190277,
+          "y": -5.209620496653315
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-502",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -4.915502849594489
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-503",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -4.586074634765005
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-504",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.454413131190278,
+          "y": -4.586074634765005
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-505",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -5.209620496653315
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-506",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.9864099477899584,
+          "y": -5.503738143712141
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-507",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -5.503738143712141
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-508",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 1.0544131311902778,
+          "y": -6.472877893859774
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-509",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -6.178760246800948
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-510",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.1455868688097213,
+          "y": -6.7669955409186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "OR_GATE-511",
+        "name": "OR_GATE",
+        "pos": {
+          "x": 2.754413131190277,
+          "y": -6.7669955409186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-512",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.1272330267701953,
+          "y": -6.472877893859774
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-513",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -6.7669955409186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-514",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -3.2426548739235863,
+          "y": -7.061113187977412
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-515",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -1.9864099477899584,
+          "y": -7.061113187977412
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-516",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.32058686880972154,
+          "y": -7.061113187977412
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-517",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.07644355764466759,
+          "y": -6.7669955409186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-518",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 3.7430895519024565,
+          "y": -5.209620496653315
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-519",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.002224082845803,
+          "y": -6.7669955409186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-520",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 4.883379369901996,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "OUTPUT-521",
+        "name": "OUTPUT",
+        "pos": {
+          "x": 5.770879369901995,
+          "y": 5.005869494534753
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-value": {
+              "maxExpandedTerminals": 64,
+              "useBusMode": true
+            }
+          },
+          "state": {
+            "bitWidth": 4,
+            "useBusMode": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-527",
+        "name": "TEXT",
+        "pos": {
+          "x": 6.440287731716741,
+          "y": 4.342611986756637
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1.3,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Cin",
+            "fontSize": 0.22,
+            "color": "#e9e9e9",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-528",
+        "name": "TEXT",
+        "pos": {
+          "x": -6.39418255043757,
+          "y": 5.299987141593579
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1.3,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A",
+            "fontSize": 0.22,
+            "color": "#e9e9e9",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-529",
+        "name": "TEXT",
+        "pos": {
+          "x": -6.39418255043757,
+          "y": 3.742612097328294
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1.3,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "B",
+            "fontSize": 0.22,
+            "color": "#e9e9e9",
+            "bold": false
+          }
+        }
+      }
+    ],
+    "simulationSemantics": "strict",
+    "pixelArtworks": [],
+    "subcircuitDefinitions": [],
+    "wires": [
+      {
+        "id": "wire379",
+        "startComponentIndex": 56,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 26,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_OR_GATE-462-input-1-1",
+        "endTerminalId": "Terminal_AND_GATE-432-output-1-1"
+      },
+      {
+        "id": "wire380",
+        "startComponentIndex": 56,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 27,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-462-input-2-1",
+        "endTerminalId": "JUNCTION-433"
+      },
+      {
+        "id": "wire381",
+        "startComponentIndex": 27,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 30,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-433",
+        "endTerminalId": "JUNCTION-436"
+      },
+      {
+        "id": "wire382",
+        "startComponentIndex": 30,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 13,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-436",
+        "endTerminalId": "Terminal_AND_GATE-419-output-1-1"
+      },
+      {
+        "id": "wire383",
+        "startComponentIndex": 57,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 32,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-463-input-1-1",
+        "endTerminalId": "JUNCTION-438"
+      },
+      {
+        "id": "wire384",
+        "startComponentIndex": 32,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 35,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-438",
+        "endTerminalId": "JUNCTION-441"
+      },
+      {
+        "id": "wire385",
+        "startComponentIndex": 35,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 16,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-441",
+        "endTerminalId": "Terminal_XOR_GATE-422-output-1-1"
+      },
+      {
+        "id": "wire386",
+        "startComponentIndex": 26,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 33,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-432-input-1-1",
+        "endTerminalId": "JUNCTION-439"
+      },
+      {
+        "id": "wire387",
+        "startComponentIndex": 33,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 35,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-439",
+        "endTerminalId": "JUNCTION-441"
+      },
+      {
+        "id": "wire388",
+        "startComponentIndex": 57,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 34,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-463-input-2-1",
+        "endTerminalId": "JUNCTION-440"
+      },
+      {
+        "id": "wire389",
+        "startComponentIndex": 13,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 12,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-419-input-1-1",
+        "endTerminalId": "JUNCTION-418"
+      },
+      {
+        "id": "wire390",
+        "startComponentIndex": 16,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 18,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-422-input-1-1",
+        "endTerminalId": "JUNCTION-424"
+      },
+      {
+        "id": "wire391",
+        "startComponentIndex": 12,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 18,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-418",
+        "endTerminalId": "JUNCTION-424"
+      },
+      {
+        "id": "wire392",
+        "startComponentIndex": 16,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 17,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-422-input-2-1",
+        "endTerminalId": "JUNCTION-423"
+      },
+      {
+        "id": "wire393",
+        "startComponentIndex": 13,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 23,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-419-input-2-1",
+        "endTerminalId": "JUNCTION-429"
+      },
+      {
+        "id": "wire394",
+        "startComponentIndex": 17,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 23,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-423",
+        "endTerminalId": "JUNCTION-429"
+      },
+      {
+        "id": "wire395",
+        "startComponentIndex": 23,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 25,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-429",
+        "endTerminalId": "JUNCTION-431"
+      },
+      {
+        "id": "wire396",
+        "startComponentIndex": 18,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-424",
+        "endTerminalId": "Terminal_SPLITTER-417-bit-0"
+      },
+      {
+        "id": "wire397",
+        "startComponentIndex": 64,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 57,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_SPLITTER-471-bit-0",
+        "endTerminalId": "Terminal_XOR_GATE-463-output-1-1"
+      },
+      {
+        "id": "wire398",
+        "startComponentIndex": 25,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 14,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-431",
+        "endTerminalId": "JUNCTION-420"
+      },
+      {
+        "id": "wire399",
+        "startComponentIndex": 14,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-420",
+        "endTerminalId": "Terminal_SPLITTER-414-bit-0"
+      },
+      {
+        "id": "wire400",
+        "startComponentIndex": 47,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 45,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_OR_GATE-453-input-1-1",
+        "endTerminalId": "Terminal_AND_GATE-451-output-1-1"
+      },
+      {
+        "id": "wire401",
+        "startComponentIndex": 47,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 50,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-453-input-2-1",
+        "endTerminalId": "JUNCTION-456"
+      },
+      {
+        "id": "wire402",
+        "startComponentIndex": 50,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 46,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-456",
+        "endTerminalId": "JUNCTION-452"
+      },
+      {
+        "id": "wire403",
+        "startComponentIndex": 46,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 39,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-452",
+        "endTerminalId": "Terminal_AND_GATE-445-output-1-1"
+      },
+      {
+        "id": "wire404",
+        "startComponentIndex": 48,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 42,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-454-input-1-1",
+        "endTerminalId": "JUNCTION-448"
+      },
+      {
+        "id": "wire405",
+        "startComponentIndex": 42,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 41,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-448",
+        "endTerminalId": "JUNCTION-447"
+      },
+      {
+        "id": "wire406",
+        "startComponentIndex": 41,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 38,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-447",
+        "endTerminalId": "Terminal_XOR_GATE-444-output-1-1"
+      },
+      {
+        "id": "wire407",
+        "startComponentIndex": 45,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 43,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-451-input-1-1",
+        "endTerminalId": "JUNCTION-449"
+      },
+      {
+        "id": "wire408",
+        "startComponentIndex": 43,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 41,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-449",
+        "endTerminalId": "JUNCTION-447"
+      },
+      {
+        "id": "wire409",
+        "startComponentIndex": 48,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 44,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-454-input-2-1",
+        "endTerminalId": "JUNCTION-450"
+      },
+      {
+        "id": "wire410",
+        "startComponentIndex": 39,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 40,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-445-input-1-1",
+        "endTerminalId": "JUNCTION-446"
+      },
+      {
+        "id": "wire411",
+        "startComponentIndex": 38,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 36,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-444-input-1-1",
+        "endTerminalId": "JUNCTION-442"
+      },
+      {
+        "id": "wire412",
+        "startComponentIndex": 40,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 36,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-446",
+        "endTerminalId": "JUNCTION-442"
+      },
+      {
+        "id": "wire413",
+        "startComponentIndex": 38,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 37,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-444-input-2-1",
+        "endTerminalId": "JUNCTION-443"
+      },
+      {
+        "id": "wire414",
+        "startComponentIndex": 39,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 49,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-445-input-2-1",
+        "endTerminalId": "JUNCTION-455"
+      },
+      {
+        "id": "wire415",
+        "startComponentIndex": 37,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 49,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-443",
+        "endTerminalId": "JUNCTION-455"
+      },
+      {
+        "id": "wire416",
+        "startComponentIndex": 36,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 53,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-442",
+        "endTerminalId": "JUNCTION-459"
+      },
+      {
+        "id": "wire417",
+        "startComponentIndex": 56,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 51,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-462-output-1-1",
+        "endTerminalId": "JUNCTION-457"
+      },
+      {
+        "id": "wire418",
+        "startComponentIndex": 51,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 29,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-457",
+        "endTerminalId": "JUNCTION-435"
+      },
+      {
+        "id": "wire419",
+        "startComponentIndex": 29,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 44,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-435",
+        "endTerminalId": "JUNCTION-450"
+      },
+      {
+        "id": "wire420",
+        "startComponentIndex": 34,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 28,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-440",
+        "endTerminalId": "JUNCTION-434"
+      },
+      {
+        "id": "wire421",
+        "startComponentIndex": 28,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 26,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-434",
+        "endTerminalId": "Terminal_AND_GATE-432-input-2-1"
+      },
+      {
+        "id": "wire422",
+        "startComponentIndex": 86,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 79,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_OR_GATE-494-input-1-1",
+        "endTerminalId": "Terminal_AND_GATE-487-output-1-1"
+      },
+      {
+        "id": "wire423",
+        "startComponentIndex": 86,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 87,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-494-input-2-1",
+        "endTerminalId": "JUNCTION-495"
+      },
+      {
+        "id": "wire424",
+        "startComponentIndex": 87,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 82,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-495",
+        "endTerminalId": "JUNCTION-490"
+      },
+      {
+        "id": "wire425",
+        "startComponentIndex": 82,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 80,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-490",
+        "endTerminalId": "Terminal_AND_GATE-488-output-1-1"
+      },
+      {
+        "id": "wire426",
+        "startComponentIndex": 71,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 70,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-479-input-1-1",
+        "endTerminalId": "JUNCTION-478"
+      },
+      {
+        "id": "wire427",
+        "startComponentIndex": 70,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 76,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-478",
+        "endTerminalId": "JUNCTION-484"
+      },
+      {
+        "id": "wire428",
+        "startComponentIndex": 76,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 66,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-484",
+        "endTerminalId": "Terminal_XOR_GATE-474-output-1-1"
+      },
+      {
+        "id": "wire429",
+        "startComponentIndex": 79,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 77,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-487-input-1-1",
+        "endTerminalId": "JUNCTION-485"
+      },
+      {
+        "id": "wire430",
+        "startComponentIndex": 77,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 76,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-485",
+        "endTerminalId": "JUNCTION-484"
+      },
+      {
+        "id": "wire431",
+        "startComponentIndex": 71,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 78,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-479-input-2-1",
+        "endTerminalId": "JUNCTION-486"
+      },
+      {
+        "id": "wire432",
+        "startComponentIndex": 80,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 81,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-488-input-1-1",
+        "endTerminalId": "JUNCTION-489"
+      },
+      {
+        "id": "wire433",
+        "startComponentIndex": 66,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 67,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-474-input-1-1",
+        "endTerminalId": "JUNCTION-475"
+      },
+      {
+        "id": "wire434",
+        "startComponentIndex": 81,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 67,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-489",
+        "endTerminalId": "JUNCTION-475"
+      },
+      {
+        "id": "wire435",
+        "startComponentIndex": 66,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 75,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-474-input-2-1",
+        "endTerminalId": "JUNCTION-483"
+      },
+      {
+        "id": "wire436",
+        "startComponentIndex": 80,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 85,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-488-input-2-1",
+        "endTerminalId": "JUNCTION-493"
+      },
+      {
+        "id": "wire437",
+        "startComponentIndex": 75,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 85,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-483",
+        "endTerminalId": "JUNCTION-493"
+      },
+      {
+        "id": "wire438",
+        "startComponentIndex": 85,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 84,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-493",
+        "endTerminalId": "JUNCTION-492"
+      },
+      {
+        "id": "wire439",
+        "startComponentIndex": 88,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 71,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-496",
+        "endTerminalId": "Terminal_XOR_GATE-479-output-1-1"
+      },
+      {
+        "id": "wire440",
+        "startComponentIndex": 103,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 100,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_OR_GATE-511-input-1-1",
+        "endTerminalId": "Terminal_AND_GATE-508-output-1-1"
+      },
+      {
+        "id": "wire441",
+        "startComponentIndex": 103,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 108,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-511-input-2-1",
+        "endTerminalId": "JUNCTION-516"
+      },
+      {
+        "id": "wire442",
+        "startComponentIndex": 108,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 105,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-516",
+        "endTerminalId": "JUNCTION-513"
+      },
+      {
+        "id": "wire443",
+        "startComponentIndex": 105,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 102,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-513",
+        "endTerminalId": "Terminal_AND_GATE-510-output-1-1"
+      },
+      {
+        "id": "wire444",
+        "startComponentIndex": 93,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 94,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-501-input-1-1",
+        "endTerminalId": "JUNCTION-502"
+      },
+      {
+        "id": "wire445",
+        "startComponentIndex": 94,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 97,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-502",
+        "endTerminalId": "JUNCTION-505"
+      },
+      {
+        "id": "wire446",
+        "startComponentIndex": 97,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 91,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-505",
+        "endTerminalId": "Terminal_XOR_GATE-499-output-1-1"
+      },
+      {
+        "id": "wire447",
+        "startComponentIndex": 100,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 101,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-508-input-1-1",
+        "endTerminalId": "JUNCTION-509"
+      },
+      {
+        "id": "wire448",
+        "startComponentIndex": 101,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 97,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-509",
+        "endTerminalId": "JUNCTION-505"
+      },
+      {
+        "id": "wire449",
+        "startComponentIndex": 93,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 99,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-501-input-2-1",
+        "endTerminalId": "JUNCTION-507"
+      },
+      {
+        "id": "wire450",
+        "startComponentIndex": 102,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 104,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-510-input-1-1",
+        "endTerminalId": "JUNCTION-512"
+      },
+      {
+        "id": "wire451",
+        "startComponentIndex": 91,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 90,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-499-input-1-1",
+        "endTerminalId": "JUNCTION-498"
+      },
+      {
+        "id": "wire452",
+        "startComponentIndex": 104,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 90,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-512",
+        "endTerminalId": "JUNCTION-498"
+      },
+      {
+        "id": "wire453",
+        "startComponentIndex": 91,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 98,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-499-input-2-1",
+        "endTerminalId": "JUNCTION-506"
+      },
+      {
+        "id": "wire454",
+        "startComponentIndex": 102,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 107,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-510-input-2-1",
+        "endTerminalId": "JUNCTION-515"
+      },
+      {
+        "id": "wire455",
+        "startComponentIndex": 98,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 107,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-506",
+        "endTerminalId": "JUNCTION-515"
+      },
+      {
+        "id": "wire456",
+        "startComponentIndex": 107,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 106,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-515",
+        "endTerminalId": "JUNCTION-514"
+      },
+      {
+        "id": "wire457",
+        "startComponentIndex": 86,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 96,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-494-output-1-1",
+        "endTerminalId": "JUNCTION-504"
+      },
+      {
+        "id": "wire458",
+        "startComponentIndex": 96,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 95,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-504",
+        "endTerminalId": "JUNCTION-503"
+      },
+      {
+        "id": "wire459",
+        "startComponentIndex": 95,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 99,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-503",
+        "endTerminalId": "JUNCTION-507"
+      },
+      {
+        "id": "wire460",
+        "startComponentIndex": 78,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 83,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-486",
+        "endTerminalId": "JUNCTION-491"
+      },
+      {
+        "id": "wire461",
+        "startComponentIndex": 83,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 79,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-491",
+        "endTerminalId": "Terminal_AND_GATE-487-input-2-1"
+      },
+      {
+        "id": "wire462",
+        "startComponentIndex": 47,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 72,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-453-output-1-1",
+        "endTerminalId": "JUNCTION-480"
+      },
+      {
+        "id": "wire463",
+        "startComponentIndex": 72,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 69,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-480",
+        "endTerminalId": "JUNCTION-477"
+      },
+      {
+        "id": "wire464",
+        "startComponentIndex": 69,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 78,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-477",
+        "endTerminalId": "JUNCTION-486"
+      },
+      {
+        "id": "wire465",
+        "startComponentIndex": 99,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 109,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-507",
+        "endTerminalId": "JUNCTION-517"
+      },
+      {
+        "id": "wire466",
+        "startComponentIndex": 109,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 100,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-517",
+        "endTerminalId": "Terminal_AND_GATE-508-input-2-1"
+      },
+      {
+        "id": "wire467",
+        "startComponentIndex": 34,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 31,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-440",
+        "endTerminalId": "Terminal_GROUND-437-output"
+      },
+      {
+        "id": "wire469",
+        "startComponentIndex": 48,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 54,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-454-output-1-1",
+        "endTerminalId": "JUNCTION-460"
+      },
+      {
+        "id": "wire470",
+        "startComponentIndex": 54,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 60,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-460",
+        "endTerminalId": "JUNCTION-466"
+      },
+      {
+        "id": "wire471",
+        "startComponentIndex": 60,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 64,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-466",
+        "endTerminalId": "Terminal_SPLITTER-471-bit-1"
+      },
+      {
+        "id": "wire472",
+        "startComponentIndex": 88,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 59,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-496",
+        "endTerminalId": "JUNCTION-465"
+      },
+      {
+        "id": "wire473",
+        "startComponentIndex": 59,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 64,
+        "endTerminalIndex": 3,
+        "startTerminalId": "JUNCTION-465",
+        "endTerminalId": "Terminal_SPLITTER-471-bit-2"
+      },
+      {
+        "id": "wire474",
+        "startComponentIndex": 93,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 110,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XOR_GATE-501-output-1-1",
+        "endTerminalId": "JUNCTION-518"
+      },
+      {
+        "id": "wire475",
+        "startComponentIndex": 110,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 58,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-518",
+        "endTerminalId": "JUNCTION-464"
+      },
+      {
+        "id": "wire476",
+        "startComponentIndex": 58,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 64,
+        "endTerminalIndex": 4,
+        "startTerminalId": "JUNCTION-464",
+        "endTerminalId": "Terminal_SPLITTER-471-bit-3"
+      },
+      {
+        "id": "wire477",
+        "startComponentIndex": 53,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 10,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-459",
+        "endTerminalId": "JUNCTION-416"
+      },
+      {
+        "id": "wire478",
+        "startComponentIndex": 10,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-416",
+        "endTerminalId": "Terminal_SPLITTER-417-bit-1"
+      },
+      {
+        "id": "wire479",
+        "startComponentIndex": 67,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 68,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-475",
+        "endTerminalId": "JUNCTION-476"
+      },
+      {
+        "id": "wire480",
+        "startComponentIndex": 68,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 9,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-476",
+        "endTerminalId": "JUNCTION-415"
+      },
+      {
+        "id": "wire481",
+        "startComponentIndex": 9,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 3,
+        "startTerminalId": "JUNCTION-415",
+        "endTerminalId": "Terminal_SPLITTER-417-bit-2"
+      },
+      {
+        "id": "wire482",
+        "startComponentIndex": 90,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 92,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-498",
+        "endTerminalId": "JUNCTION-500"
+      },
+      {
+        "id": "wire483",
+        "startComponentIndex": 92,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 19,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-500",
+        "endTerminalId": "JUNCTION-425"
+      },
+      {
+        "id": "wire484",
+        "startComponentIndex": 19,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 4,
+        "startTerminalId": "JUNCTION-425",
+        "endTerminalId": "Terminal_SPLITTER-417-bit-3"
+      },
+      {
+        "id": "wire485",
+        "startComponentIndex": 44,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 55,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-450",
+        "endTerminalId": "JUNCTION-461"
+      },
+      {
+        "id": "wire486",
+        "startComponentIndex": 55,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 45,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-461",
+        "endTerminalId": "Terminal_AND_GATE-451-input-2-1"
+      },
+      {
+        "id": "wire487",
+        "startComponentIndex": 52,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-458",
+        "endTerminalId": "JUNCTION-411"
+      },
+      {
+        "id": "wire488",
+        "startComponentIndex": 5,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-411",
+        "endTerminalId": "Terminal_SPLITTER-414-bit-1"
+      },
+      {
+        "id": "wire489",
+        "startComponentIndex": 49,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 52,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-455",
+        "endTerminalId": "JUNCTION-458"
+      },
+      {
+        "id": "wire490",
+        "startComponentIndex": 84,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 21,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-492",
+        "endTerminalId": "JUNCTION-427"
+      },
+      {
+        "id": "wire491",
+        "startComponentIndex": 21,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 3,
+        "startTerminalId": "JUNCTION-427",
+        "endTerminalId": "Terminal_SPLITTER-414-bit-2"
+      },
+      {
+        "id": "wire492",
+        "startComponentIndex": 106,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 24,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-514",
+        "endTerminalId": "JUNCTION-430"
+      },
+      {
+        "id": "wire493",
+        "startComponentIndex": 24,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 4,
+        "startTerminalId": "JUNCTION-430",
+        "endTerminalId": "Terminal_SPLITTER-414-bit-3"
+      },
+      {
+        "id": "wire494",
+        "startComponentIndex": 103,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 111,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-511-output-1-1",
+        "endTerminalId": "JUNCTION-519"
+      },
+      {
+        "id": "wire495",
+        "startComponentIndex": 111,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 61,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-519",
+        "endTerminalId": "JUNCTION-468"
+      },
+      {
+        "id": "wire496",
+        "startComponentIndex": 61,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 74,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-468",
+        "endTerminalId": "Terminal_LED-482-input-1-1"
+      },
+      {
+        "id": "wire497",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 6,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_RADIX_CONVERTER-408-input-b-bus",
+        "endTerminalId": "JUNCTION-412"
+      },
+      {
+        "id": "wire498",
+        "startComponentIndex": 8,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 20,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_SPLITTER-414-bus",
+        "endTerminalId": "JUNCTION-426"
+      },
+      {
+        "id": "wire499",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 20,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-412",
+        "endTerminalId": "JUNCTION-426"
+      },
+      {
+        "id": "wire500",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 1,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_RADIX_CONVERTER-406-input-b-bus",
+        "endTerminalId": "JUNCTION-407"
+      },
+      {
+        "id": "wire501",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_SPLITTER-417-bus",
+        "endTerminalId": "JUNCTION-413"
+      },
+      {
+        "id": "wire502",
+        "startComponentIndex": 7,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 3,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-413",
+        "endTerminalId": "Terminal_INPUT-409-output"
+      },
+      {
+        "id": "wire503",
+        "startComponentIndex": 1,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-407",
+        "endTerminalId": "JUNCTION-413"
+      },
+      {
+        "id": "wire504",
+        "startComponentIndex": 73,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 62,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_RADIX_CONVERTER-481-input-b-bus",
+        "endTerminalId": "JUNCTION-469"
+      },
+      {
+        "id": "wire505",
+        "startComponentIndex": 65,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 63,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-472",
+        "endTerminalId": "JUNCTION-470"
+      },
+      {
+        "id": "wire506",
+        "startComponentIndex": 63,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 64,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-470",
+        "endTerminalId": "Terminal_SPLITTER-471-bus"
+      },
+      {
+        "id": "wire507",
+        "startComponentIndex": 62,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 63,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-469",
+        "endTerminalId": "JUNCTION-470"
+      },
+      {
+        "id": "wire508",
+        "startComponentIndex": 112,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 65,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-520",
+        "endTerminalId": "JUNCTION-472"
+      },
+      {
+        "id": "wire509",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 20,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_INPUT-410-output",
+        "endTerminalId": "JUNCTION-426"
+      },
+      {
+        "id": "wire510",
+        "startComponentIndex": 113,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 112,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OUTPUT-521-input",
+        "endTerminalId": "JUNCTION-520"
+      }
+    ],
+    "guides": [],
+    "nextComponentId": 530,
+    "selectedComponentIds": [],
+    "componentState": {
+      "hiddenGroups": [],
+      "lockedGroups": [],
+      "nextHiddenGroupId": 1,
+      "nextLockedGroupId": 1
+    }
+  },
+  "workspace": {
+    "center": {
+      "x": 1.3085513884866642,
+      "y": 0.5551767297279284
+    },
+    "zoom": 0.860707976425056
+  }
+}
