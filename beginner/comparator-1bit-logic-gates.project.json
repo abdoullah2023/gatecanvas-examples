@@ -1,0 +1,865 @@
+{
+  "format": "digital-logic-simulator-project",
+  "version": 4,
+  "name": "1-Bit Binary Comparator Using Logic Gates",
+  "savedAt": "2026-11-20T19:43:46.700Z",
+  "circuit": {
+    "components": [
+      {
+        "id": "TEXT-21",
+        "name": "TEXT",
+        "pos": {
+          "x": -13.476091285675064,
+          "y": 3.4398856259374795
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.8,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "1-Bit Binary Comparator  |  Logic Gates",
+            "fontSize": 0.43,
+            "color": "#f5f7fc",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-22",
+        "name": "TEXT",
+        "pos": {
+          "x": -13.476091285675064,
+          "y": 2.9238282219422325
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.8,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Toggle A and B to compare two single-bit values",
+            "fontSize": 0.28,
+            "color": "#9db5ce",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-23",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -16.7258405030087,
+          "y": 1.8714663264184233
+        },
+        "groupName": "group_1795203760029_0",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-24",
+        "name": "TEXT",
+        "pos": {
+          "x": -17.213563314005757,
+          "y": 1.8714663264184241
+        },
+        "groupName": "group_1795203760029_0",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A",
+            "fontSize": 0.33,
+            "color": "#ffffff",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-25",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -12.966623063789829,
+          "y": 1.8714663264184233
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-26",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -12.026091285675061,
+          "y": 1.5964663264184247
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-27",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -15.432157079725801,
+          "y": 1.8714663264184233
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "INVERTER_GATE-28",
+        "name": "INVERTER_GATE",
+        "pos": {
+          "x": -14.19609128567507,
+          "y": 1.3214663264184243
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.8,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 1,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "LED-29",
+        "name": "LED",
+        "pos": {
+          "x": -10.4032610557615,
+          "y": 1.5964663264184247
+        },
+        "groupName": "group_1795203760031_1",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-30",
+        "name": "TEXT",
+        "pos": {
+          "x": -9.58179870207329,
+          "y": 1.5964663264184247
+        },
+        "groupName": "group_1795203760031_1",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A > B",
+            "fontSize": 0.32,
+            "color": "#ffffff",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-31",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -12.966623063789829,
+          "y": 0.5964663264184256
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "XNOR_GATE-32",
+        "name": "XNOR_GATE",
+        "pos": {
+          "x": -12.026091285675061,
+          "y": 0.3214663264184243
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-33",
+        "name": "TEXT",
+        "pos": {
+          "x": -9.58179870207329,
+          "y": 0.3214663264184243
+        },
+        "groupName": "group_1795203760031_2",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A = B",
+            "fontSize": 0.32,
+            "color": "#ffffff",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "LED-34",
+        "name": "LED",
+        "pos": {
+          "x": -10.4032610557615,
+          "y": 0.3214663264184243
+        },
+        "groupName": "group_1795203760031_2",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-35",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -12.966623063789829,
+          "y": 0.046466326418423964
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "INVERTER_GATE-36",
+        "name": "INVERTER_GATE",
+        "pos": {
+          "x": -14.19609128567507,
+          "y": -0.6785336735815748
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 0.8,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 1,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-37",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -12.026091285675061,
+          "y": -0.9535336735815751
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "LED-38",
+        "name": "LED",
+        "pos": {
+          "x": -10.4032610557615,
+          "y": -0.9535336735815751
+        },
+        "groupName": "group_1795203760032_3",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-39",
+        "name": "TEXT",
+        "pos": {
+          "x": -9.58179870207329,
+          "y": -0.9535336735815751
+        },
+        "groupName": "group_1795203760032_3",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "A < B",
+            "fontSize": 0.32,
+            "color": "#ffffff",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-40",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -16.7258405030087,
+          "y": -1.2285336735815755
+        },
+        "groupName": "group_1795203760032_4",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-41",
+        "name": "TEXT",
+        "pos": {
+          "x": -17.213563314005757,
+          "y": -1.2285336735815746
+        },
+        "groupName": "group_1795203760032_4",
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "B",
+            "fontSize": 0.33,
+            "color": "#ffffff",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-42",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -15.432157079725801,
+          "y": -1.2285336735815746
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-43",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -12.966623063789829,
+          "y": -1.2285336735815755
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      }
+    ],
+    "simulationSemantics": "strict",
+    "pixelArtworks": [],
+    "subcircuitDefinitions": [],
+    "wires": [
+      {
+        "id": "wire12",
+        "startComponentIndex": 7,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_INVERTER_GATE-28-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-26-input-2-1"
+      },
+      {
+        "id": "wire13",
+        "startComponentIndex": 15,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 16,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_INVERTER_GATE-36-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-37-input-1-1"
+      },
+      {
+        "id": "wire14",
+        "startComponentIndex": 5,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-26-output-1-1",
+        "endTerminalId": "Terminal_LED-29-input-1-1"
+      },
+      {
+        "id": "wire15",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 13,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XNOR_GATE-32-output-1-1",
+        "endTerminalId": "Terminal_LED-34-input-1-1"
+      },
+      {
+        "id": "wire16",
+        "startComponentIndex": 16,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 17,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-37-output-1-1",
+        "endTerminalId": "Terminal_LED-38-input-1-1"
+      },
+      {
+        "id": "wire17",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 14,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XNOR_GATE-32-input-2-1",
+        "endTerminalId": "JUNCTION-35"
+      },
+      {
+        "id": "wire18",
+        "startComponentIndex": 21,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 22,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-42",
+        "endTerminalId": "JUNCTION-43"
+      },
+      {
+        "id": "wire19",
+        "startComponentIndex": 22,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 16,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-43",
+        "endTerminalId": "Terminal_AND_GATE-37-input-2-1"
+      },
+      {
+        "id": "wire20",
+        "startComponentIndex": 14,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 22,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-35",
+        "endTerminalId": "JUNCTION-43"
+      },
+      {
+        "id": "wire21",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 10,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_XNOR_GATE-32-input-1-1",
+        "endTerminalId": "JUNCTION-31"
+      },
+      {
+        "id": "wire22",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 4,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-27",
+        "endTerminalId": "JUNCTION-25"
+      },
+      {
+        "id": "wire23",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-25",
+        "endTerminalId": "Terminal_AND_GATE-26-input-1-1"
+      },
+      {
+        "id": "wire24",
+        "startComponentIndex": 10,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 4,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-31",
+        "endTerminalId": "JUNCTION-25"
+      },
+      {
+        "id": "wire25",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 15,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-27",
+        "endTerminalId": "Terminal_INVERTER_GATE-36-input-1-1"
+      },
+      {
+        "id": "wire26",
+        "startComponentIndex": 21,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-42",
+        "endTerminalId": "Terminal_INVERTER_GATE-28-input-1-1"
+      },
+      {
+        "id": "wire27",
+        "startComponentIndex": 21,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 19,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-42",
+        "endTerminalId": "Terminal_TOGGLE_SWITCH-40-output-1-1"
+      },
+      {
+        "id": "wire28",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 2,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-27",
+        "endTerminalId": "Terminal_TOGGLE_SWITCH-23-output-1-1"
+      }
+    ],
+    "guides": [],
+    "nextComponentId": 44,
+    "selectedComponentIds": [],
+    "componentState": {
+      "hiddenGroups": [],
+      "lockedGroups": [],
+      "nextHiddenGroupId": 1,
+      "nextLockedGroupId": 1
+    }
+  },
+  "workspace": {
+    "center": {
+      "x": -11.6812790461735,
+      "y": 0.2816146144664096
+    },
+    "zoom": 1.4898965762156597
+  }
+}

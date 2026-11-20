@@ -2,15 +2,15 @@
   "format": "digital-logic-simulator-project",
   "version": 4,
   "name": "4-to-2 Priority Encoder",
-  "savedAt": "2026-11-20T18:51:18.616Z",
+  "savedAt": "2026-11-20T19:08:40.135Z",
   "circuit": {
     "components": [
       {
         "id": "TEXT-13",
         "name": "TEXT",
         "pos": {
-          "x": -0.65,
-          "y": 5.049591288657212
+          "x": -1.0708399704631975,
+          "y": 4.799942979879619
         },
         "groupName": "group_1795200665104",
         "geometry": {
@@ -37,8 +37,8 @@
         "id": "TEXT-14",
         "name": "TEXT",
         "pos": {
-          "x": -0.65,
-          "y": 4.4995912886572125
+          "x": -1.0708399704631975,
+          "y": 4.249942979879619
         },
         "groupName": "group_1795200665104",
         "geometry": {
@@ -253,7 +253,7 @@
         "name": "JUNCTION",
         "pos": {
           "x": 0.651809602096729,
-          "y": 3.3928800414154554
+          "y": 2.2928800414154553
         },
         "groupName": null,
         "geometry": {
@@ -338,9 +338,9 @@
         "name": "OR_GATE",
         "pos": {
           "x": 1.7285583634721577,
-          "y": 2.017880041415455
+          "y": 3.1178800414154555
         },
-        "groupName": null,
+        "groupName": "group_1795201198086",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -379,9 +379,9 @@
         "name": "OR_GATE",
         "pos": {
           "x": 1.7285583634721577,
-          "y": 3.1178800414154555
+          "y": 2.017880041415455
         },
-        "groupName": null,
+        "groupName": "group_1795201201406",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -420,7 +420,7 @@
         "name": "JUNCTION",
         "pos": {
           "x": 0.8401839827844437,
-          "y": 2.842880041415456
+          "y": 1.742880041415455
         },
         "groupName": null,
         "geometry": {
@@ -529,9 +529,9 @@
         "name": "LED",
         "pos": {
           "x": 3.386418145292774,
-          "y": 2.017880041415455
+          "y": 3.1178800414154555
         },
-        "groupName": "group_1795200579601_3",
+        "groupName": "group_1795201198086",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -555,9 +555,9 @@
         "name": "LED",
         "pos": {
           "x": 3.386418145292774,
-          "y": 3.1178800414154555
+          "y": 2.017880041415455
         },
-        "groupName": "group_1795200579601_4",
+        "groupName": "group_1795201201406",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -581,9 +581,9 @@
         "name": "TEXT",
         "pos": {
           "x": 3.8870721900448792,
-          "y": 3.1178800414154555
+          "y": 2.017880041415455
         },
-        "groupName": "group_1795200579601_4",
+        "groupName": "group_1795201201406",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -609,9 +609,9 @@
         "name": "TEXT",
         "pos": {
           "x": 3.9174335840071377,
-          "y": 2.017880041415455
+          "y": 3.1178800414154555
         },
-        "groupName": "group_1795200579601_3",
+        "groupName": "group_1795201198086",
         "geometry": {
           "hidden": false,
           "locked": false,
@@ -629,30 +629,6 @@
             "fontSize": 0.25,
             "color": "#e9e9e9",
             "bold": true
-          }
-        }
-      },
-      {
-        "id": "JUNCTION-159",
-        "name": "JUNCTION",
-        "pos": {
-          "x": 0.651809602096729,
-          "y": 1.7428800414154546
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "state": {
-            "bitWidth": 1
           }
         }
       },
@@ -987,6 +963,54 @@
             "bitWidth": 1
           }
         }
+      },
+      {
+        "id": "JUNCTION-203",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 0.651809602096729,
+          "y": 2.8428800414154556
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-204",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 0.4927737362878002,
+          "y": 3.3928800414154554
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
       }
     ],
     "simulationSemantics": "strict",
@@ -1022,18 +1046,18 @@
       },
       {
         "id": "wire118",
-        "startComponentIndex": 27,
+        "startComponentIndex": 26,
         "startTerminalIndex": 4,
-        "endComponentIndex": 30,
+        "endComponentIndex": 29,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_OR_GATE-165-output-1-1",
         "endTerminalId": "Terminal_LED-168-input-1-1"
       },
       {
         "id": "wire119",
-        "startComponentIndex": 27,
+        "startComponentIndex": 26,
         "startTerminalIndex": 0,
-        "endComponentIndex": 26,
+        "endComponentIndex": 25,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_OR_GATE-165-input-1-1",
         "endTerminalId": "JUNCTION-164"
@@ -1049,25 +1073,25 @@
       },
       {
         "id": "wire121",
-        "startComponentIndex": 27,
+        "startComponentIndex": 26,
         "startTerminalIndex": 3,
-        "endComponentIndex": 33,
+        "endComponentIndex": 32,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_OR_GATE-165-input-4-1",
         "endTerminalId": "JUNCTION-171"
       },
       {
         "id": "wire122",
-        "startComponentIndex": 27,
+        "startComponentIndex": 26,
         "startTerminalIndex": 2,
-        "endComponentIndex": 32,
+        "endComponentIndex": 31,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_OR_GATE-165-input-3-1",
         "endTerminalId": "JUNCTION-170"
       },
       {
         "id": "wire123",
-        "startComponentIndex": 32,
+        "startComponentIndex": 31,
         "startTerminalIndex": 0,
         "endComponentIndex": 7,
         "endTerminalIndex": 0,
@@ -1087,10 +1111,10 @@
         "id": "wire125",
         "startComponentIndex": 6,
         "startTerminalIndex": 2,
-        "endComponentIndex": 11,
+        "endComponentIndex": 34,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_AND_GATE-144-output-1-1",
-        "endTerminalId": "Terminal_OR_GATE-149-input-1-1"
+        "endTerminalId": "JUNCTION-204"
       },
       {
         "id": "wire126",
@@ -1103,7 +1127,7 @@
       },
       {
         "id": "wire127",
-        "startComponentIndex": 33,
+        "startComponentIndex": 32,
         "startTerminalIndex": 0,
         "endComponentIndex": 10,
         "endTerminalIndex": 0,
@@ -1121,7 +1145,7 @@
       },
       {
         "id": "wire129",
-        "startComponentIndex": 25,
+        "startComponentIndex": 24,
         "startTerminalIndex": 0,
         "endComponentIndex": 16,
         "endTerminalIndex": 0,
@@ -1139,12 +1163,12 @@
       },
       {
         "id": "wire131",
-        "startComponentIndex": 11,
-        "startTerminalIndex": 1,
-        "endComponentIndex": 21,
+        "startComponentIndex": 33,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
         "endTerminalIndex": 0,
-        "startTerminalId": "Terminal_OR_GATE-149-input-2-1",
-        "endTerminalId": "JUNCTION-159"
+        "startTerminalId": "JUNCTION-203",
+        "endTerminalId": "JUNCTION-146"
       },
       {
         "id": "wire132",
@@ -1165,44 +1189,35 @@
         "endTerminalId": "JUNCTION-146"
       },
       {
-        "id": "wire134",
+        "id": "wire135",
         "startComponentIndex": 8,
         "startTerminalIndex": 0,
-        "endComponentIndex": 21,
+        "endComponentIndex": 30,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-146",
-        "endTerminalId": "JUNCTION-159"
-      },
-      {
-        "id": "wire135",
-        "startComponentIndex": 21,
-        "startTerminalIndex": 0,
-        "endComponentIndex": 31,
-        "endTerminalIndex": 0,
-        "startTerminalId": "JUNCTION-159",
         "endTerminalId": "JUNCTION-169"
       },
       {
         "id": "wire136",
-        "startComponentIndex": 31,
+        "startComponentIndex": 30,
         "startTerminalIndex": 0,
-        "endComponentIndex": 27,
+        "endComponentIndex": 26,
         "endTerminalIndex": 1,
         "startTerminalId": "JUNCTION-169",
         "endTerminalId": "Terminal_OR_GATE-165-input-2-1"
       },
       {
         "id": "wire137",
-        "startComponentIndex": 31,
+        "startComponentIndex": 30,
         "startTerminalIndex": 0,
-        "endComponentIndex": 28,
+        "endComponentIndex": 27,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-169",
         "endTerminalId": "JUNCTION-166"
       },
       {
         "id": "wire138",
-        "startComponentIndex": 26,
+        "startComponentIndex": 25,
         "startTerminalIndex": 0,
         "endComponentIndex": 13,
         "endTerminalIndex": 0,
@@ -1211,34 +1226,52 @@
       },
       {
         "id": "wire139",
-        "startComponentIndex": 25,
+        "startComponentIndex": 24,
         "startTerminalIndex": 0,
-        "endComponentIndex": 26,
+        "endComponentIndex": 25,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-163",
         "endTerminalId": "JUNCTION-164"
       },
       {
         "id": "wire140",
-        "startComponentIndex": 28,
+        "startComponentIndex": 27,
         "startTerminalIndex": 0,
-        "endComponentIndex": 24,
+        "endComponentIndex": 23,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-166",
         "endTerminalId": "JUNCTION-162"
       },
       {
         "id": "wire141",
-        "startComponentIndex": 24,
+        "startComponentIndex": 23,
         "startTerminalIndex": 0,
-        "endComponentIndex": 22,
+        "endComponentIndex": 21,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-162",
         "endTerminalId": "Terminal_TOGGLE_SWITCH-160-output-1-1"
+      },
+      {
+        "id": "wire142",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 33,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_OR_GATE-149-input-2-1",
+        "endTerminalId": "JUNCTION-203"
+      },
+      {
+        "id": "wire143",
+        "startComponentIndex": 34,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-204",
+        "endTerminalId": "Terminal_OR_GATE-149-input-1-1"
       }
     ],
     "guides": [],
-    "nextComponentId": 172,
+    "nextComponentId": 205,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
@@ -1249,9 +1282,9 @@
   },
   "workspace": {
     "center": {
-      "x": 0.7574846487546086,
-      "y": 2.102890281910115
+      "x": 0.5276145551995289,
+      "y": 2.3510475477187036
     },
-    "zoom": 1.191917260972521
+    "zoom": 1.3848102882967734
   }
 }

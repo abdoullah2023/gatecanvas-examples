@@ -1,0 +1,18 @@
+{
+  "id": "comparator-1bit-logic-gates",
+  "title": "1-Bit Binary Comparator Using Logic Gates",
+  "description": "Compare two 1-bit inputs A and B using only NOT, AND, and XNOR logic gates. Toggle the switches and observe three LEDs showing A > B, A = B, and A < B.",
+  "category": "Arithmetic",
+  "difficulty": "beginner",
+  "tags": [
+    "comparator",
+    "logic-gates",
+    "1-bit",
+    "binary",
+    "xnor",
+    "and",
+    "not",
+    "magnitude"
+  ],
+  "published": true
+}
