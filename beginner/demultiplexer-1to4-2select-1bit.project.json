@@ -1,0 +1,961 @@
+{
+  "format": "digital-logic-simulator-project",
+  "version": 4,
+  "name": "1-to-4 Demultiplexer (2 Select Bits, 1-Bit Data)",
+  "savedAt": "2026-11-20T01:07:43.255Z",
+  "circuit": {
+    "components": [
+      {
+        "id": "TOGGLE_SWITCH-1",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -6.4,
+          "y": 0
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": true
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-2",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -6.4,
+          "y": -3.25
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-3",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -6.4,
+          "y": -4.7
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "INVERTER_GATE-4",
+        "name": "INVERTER_GATE",
+        "pos": {
+          "x": -3.75,
+          "y": -3.25
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 1,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "INVERTER_GATE-5",
+        "name": "INVERTER_GATE",
+        "pos": {
+          "x": -3.75,
+          "y": -4.7
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 1,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-6",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 0,
+          "y": 3.9
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-7",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 0,
+          "y": 2.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-8",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 0,
+          "y": 0.5
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-9",
+        "name": "AND_GATE",
+        "pos": {
+          "x": 0,
+          "y": -1.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "LED-10",
+        "name": "LED",
+        "pos": {
+          "x": 3.3,
+          "y": 3.9
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-11",
+        "name": "LED",
+        "pos": {
+          "x": 3.3,
+          "y": 2.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-12",
+        "name": "LED",
+        "pos": {
+          "x": 3.3,
+          "y": 0.5
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-13",
+        "name": "LED",
+        "pos": {
+          "x": 3.3,
+          "y": -1.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-14",
+        "name": "TEXT",
+        "pos": {
+          "x": -0.1,
+          "y": 5.7
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "1-to-4 Demultiplexer",
+            "fontSize": 0.38,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-15",
+        "name": "TEXT",
+        "pos": {
+          "x": -0.1,
+          "y": 5.05
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "2 select bits  |  1-bit data",
+            "fontSize": 0.23,
+            "color": "#95aabe",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-16",
+        "name": "TEXT",
+        "pos": {
+          "x": -7.25,
+          "y": 0
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "D",
+            "fontSize": 0.23,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-17",
+        "name": "TEXT",
+        "pos": {
+          "x": -7.25,
+          "y": -3.25
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "S0",
+            "fontSize": 0.21,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-18",
+        "name": "TEXT",
+        "pos": {
+          "x": -7.25,
+          "y": -4.7
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "S1",
+            "fontSize": 0.21,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-19",
+        "name": "TEXT",
+        "pos": {
+          "x": 4.07,
+          "y": 3.9
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Y0",
+            "fontSize": 0.23,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-20",
+        "name": "TEXT",
+        "pos": {
+          "x": 4.07,
+          "y": 2.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Y1",
+            "fontSize": 0.23,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-21",
+        "name": "TEXT",
+        "pos": {
+          "x": 4.07,
+          "y": 0.5
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Y2",
+            "fontSize": 0.23,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-22",
+        "name": "TEXT",
+        "pos": {
+          "x": 4.07,
+          "y": -1.2
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Y3",
+            "fontSize": 0.23,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-23",
+        "name": "TEXT",
+        "pos": {
+          "x": -2.05,
+          "y": -3.5
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "NOT S0",
+            "fontSize": 0.17,
+            "color": "#95aabe",
+            "bold": false
+          }
+        }
+      },
+      {
+        "id": "TEXT-24",
+        "name": "TEXT",
+        "pos": {
+          "x": -2.05,
+          "y": -4.95
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "NOT S1",
+            "fontSize": 0.17,
+            "color": "#95aabe",
+            "bold": false
+          }
+        }
+      }
+    ],
+    "simulationSemantics": "strict",
+    "pixelArtworks": [],
+    "subcircuitDefinitions": [],
+    "wires": [
+      {
+        "id": "wire1",
+        "startComponentIndex": 1,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 3,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-2-output-1-1",
+        "endTerminalId": "Terminal_INVERTER_GATE-4-input-1-1"
+      },
+      {
+        "id": "wire2",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 4,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-3-output-1-1",
+        "endTerminalId": "Terminal_INVERTER_GATE-5-input-1-1"
+      },
+      {
+        "id": "wire3",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-1-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-6-input-1-1"
+      },
+      {
+        "id": "wire4",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_INVERTER_GATE-5-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-6-input-2-1"
+      },
+      {
+        "id": "wire5",
+        "startComponentIndex": 3,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 5,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_INVERTER_GATE-4-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-6-input-3-1"
+      },
+      {
+        "id": "wire6",
+        "startComponentIndex": 5,
+        "startTerminalIndex": 3,
+        "endComponentIndex": 9,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-6-output-1-1",
+        "endTerminalId": "Terminal_LED-10-input-1-1"
+      },
+      {
+        "id": "wire7",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 6,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-1-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-7-input-1-1"
+      },
+      {
+        "id": "wire8",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 6,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_INVERTER_GATE-5-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-7-input-2-1"
+      },
+      {
+        "id": "wire9",
+        "startComponentIndex": 1,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 6,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-2-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-7-input-3-1"
+      },
+      {
+        "id": "wire10",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 3,
+        "endComponentIndex": 10,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-7-output-1-1",
+        "endTerminalId": "Terminal_LED-11-input-1-1"
+      },
+      {
+        "id": "wire11",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-1-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-8-input-1-1"
+      },
+      {
+        "id": "wire12",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-3-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-8-input-2-1"
+      },
+      {
+        "id": "wire13",
+        "startComponentIndex": 3,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_INVERTER_GATE-4-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-8-input-3-1"
+      },
+      {
+        "id": "wire14",
+        "startComponentIndex": 7,
+        "startTerminalIndex": 3,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-8-output-1-1",
+        "endTerminalId": "Terminal_LED-12-input-1-1"
+      },
+      {
+        "id": "wire15",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-1-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-9-input-1-1"
+      },
+      {
+        "id": "wire16",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-3-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-9-input-2-1"
+      },
+      {
+        "id": "wire17",
+        "startComponentIndex": 1,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-2-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-9-input-3-1"
+      },
+      {
+        "id": "wire18",
+        "startComponentIndex": 8,
+        "startTerminalIndex": 3,
+        "endComponentIndex": 12,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_AND_GATE-9-output-1-1",
+        "endTerminalId": "Terminal_LED-13-input-1-1"
+      }
+    ],
+    "nextComponentId": 25,
+    "selectedComponentIds": [],
+    "componentState": {
+      "hiddenGroups": [],
+      "lockedGroups": [],
+      "nextHiddenGroupId": 1,
+      "nextLockedGroupId": 1
+    }
+  },
+  "history": {
+    "undoStack": [],
+    "redoStack": []
+  },
+  "workspace": {
+    "center": {
+      "x": -0.4,
+      "y": 0.4
+    },
+    "zoom": 0.78
+  }
+}
