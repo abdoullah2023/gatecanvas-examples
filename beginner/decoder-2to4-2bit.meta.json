@@ -1,0 +1,18 @@
+{
+  "id": "decoder-2to4-2bit",
+  "title": "2-to-4 Binary Decoder",
+  "description": "Convert a 2-bit binary input (A1, A0) into four active-high, one-hot outputs (Y0–Y3). Toggle the two switches to see how NOT and AND gates turn on exactly one output LED for each binary combination.",
+  "category": "Encoding",
+  "difficulty": "beginner",
+  "tags": [
+    "binary-decoder",
+    "decoder",
+    "2-to-4",
+    "one-hot",
+    "encoding",
+    "and",
+    "not",
+    "binary"
+  ],
+  "published": true
+}
