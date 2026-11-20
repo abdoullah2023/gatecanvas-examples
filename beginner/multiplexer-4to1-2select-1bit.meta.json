@@ -1,7 +1,7 @@
 {
   "id": "multiplexer-4to1-2select-1bit",
   "title": "4-to-1 Multiplexer (2 Select Bits)",
-  "description": "Route one of four 1-bit data inputs (D0-D3) to output Y using two select switches (S1 and S0). Toggle the data inputs and selector bits to explore how NOT, AND, and OR gates build a 4-to-1 multiplexer.",
+  "description": "Route one of four 1-bit data inputs (l0-l3) to output Y using two select switches (S1 and S0). Toggle the data inputs and selector bits to explore how NOT, AND, and OR gates build a 4-to-1 multiplexer.",
   "category": "Data Routing",
   "difficulty": "beginner",
   "tags": [
