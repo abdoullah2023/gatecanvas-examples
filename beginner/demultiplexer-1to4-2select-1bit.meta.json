@@ -1,7 +1,7 @@
 {
   "id": "demultiplexer-1to4-2select-1bit",
   "title": "1-to-4 Demultiplexer (2 Select Bits)",
-  "description": "Route one 1-bit data input (D) to one of four outputs (Y0–Y3) using two select switches (S1 and S0). Toggle D, S1, and S0 to see how NOT and AND gates enable exactly one output when D is high.",
+  "description": "Route one 1-bit data input (l) to one of four outputs (Y0–Y3) using two select switches (S1 and S0). Toggle D, S1, and S0 to see how NOT and AND gates enable exactly one output when D is high.",
   "category": "Data Routing",
   "difficulty": "beginner",
   "tags": [
