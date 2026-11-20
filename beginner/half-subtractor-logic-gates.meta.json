@@ -1,0 +1,19 @@
+{
+  "id": "half-subtractor-logic-gates",
+  "title": "Half Subtractor Using Logic Gates",
+  "description": "Subtract two 1-bit inputs A and B using XOR, NOT, and AND gates. Toggle the switches to see Difference (A XOR B) and Borrow Out (NOT A AND B) on separate LEDs.",
+  "category": "Arithmetic",
+  "difficulty": "beginner",
+  "tags": [
+    "subtraction",
+    "binary",
+    "logic-gates",
+    "borrow",
+    "xor",
+    "and",
+    "not",
+    "half-subtractor",
+    "1-bit"
+  ],
+  "published": true
+}

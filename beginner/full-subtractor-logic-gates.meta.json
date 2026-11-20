@@ -1,0 +1,21 @@
+{
+  "id": "full-subtractor-logic-gates",
+  "title": "Full Subtractor Using Logic Gates",
+  "description": "Subtract B and Borrow In (Bin) from one-bit input A using XOR, NOT, AND, and OR gates. Toggle A, B, and Bin; the Difference and Borrow Out LEDs show the result.",
+  "category": "Arithmetic",
+  "difficulty": "beginner",
+  "tags": [
+    "subtraction",
+    "binary",
+    "logic-gates",
+    "borrow",
+    "xor",
+    "and",
+    "not",
+    "full-subtractor",
+    "borrow-in",
+    "or",
+    "1-bit"
+  ],
+  "published": true
+}
