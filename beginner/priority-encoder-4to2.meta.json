@@ -1,0 +1,18 @@
+{
+  "id": "priority-encoder-4to2",
+  "title": "4-to-2 Priority Encoder",
+  "description": "Encode four 1-bit inputs into a 2-bit binary output, always choosing the highest active input (D3 > D2 > D1 > D0). Toggle multiple inputs to explore priority logic built from NOT, AND, and OR gates. The Valid LED lights when at least one input is active.",
+  "category": "Encoding",
+  "difficulty": "intermediate",
+  "tags": [
+    "priority-encoder",
+    "encoder",
+    "4-to-2",
+    "binary",
+    "encoding",
+    "priority",
+    "valid",
+    "logic-gates"
+  ],
+  "published": true
+}
