@@ -1,0 +1,22 @@
+{
+  "id": "adder-subtractor-4bit-logic-gates",
+  "title": "4-Bit Adder / Subtractor Using Logic Gates",
+  "description": "Add and subtract two 4-bit unsigned binary inputs using a mode switch and four Full Adder subcircuits built from XOR, AND and OR logic gates. Mode 0 adds A+B; Mode 1 computes A-B using two's complement. Toggle A0-A3, B0-B3 and Mode to observe S0-S3 and Cout. In subtraction mode, Cout=1 indicates no borrow. No built-in Adder/Subtractor is used.",
+  "category": "Arithmetic",
+  "difficulty": "intermediate",
+  "tags": [
+    "4-bit",
+    "addition",
+    "subtraction",
+    "adder-subtractor",
+    "twos-complement",
+    "full-adder",
+    "xor",
+    "and",
+    "or",
+    "not",
+    "ripple-carry",
+    "logic-gates"
+  ],
+  "published": true
+}
