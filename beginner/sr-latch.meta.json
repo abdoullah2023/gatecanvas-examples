@@ -1,0 +1,17 @@
+{
+  "id": "sr-latch",
+  "title": "SR Latch (NOR Gates)",
+  "description": "Build a 1-bit memory cell with two cross-coupled NOR gates. Toggle Set (S) and Reset (R), observe Q and Q BAR, and test how the latch holds its previous state when both inputs are low. Avoid setting S and R high together.",
+  "category": "Memory",
+  "difficulty": "beginner",
+  "tags": [
+    "sr-latch",
+    "memory",
+    "sequential-logic",
+    "nor",
+    "set",
+    "reset",
+    "feedback"
+  ],
+  "published": true
+}
