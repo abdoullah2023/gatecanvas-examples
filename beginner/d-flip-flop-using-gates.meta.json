@@ -1,0 +1,19 @@
+{
+  "id": "d-flip-flop-using-gates",
+  "title": "D Flip-Flop Using Gates",
+  "description": "Build a rising-edge-triggered D flip-flop from two master-slave NAND latches and NOT gates. Set D while CLK is low, toggle CLK high to capture the bit, and observe Q and Q BAR retain their values until the next rising edge.",
+  "category": "Memory",
+  "difficulty": "intermediate",
+  "tags": [
+    "d-flip-flop",
+    "dff",
+    "master-slave",
+    "nand",
+    "inverter",
+    "rising-edge",
+    "clock",
+    "memory",
+    "sequential-logic"
+  ],
+  "published": true
+}
