@@ -1,0 +1,16 @@
+{
+  "id": "jk-flip-flop-nand-gates",
+  "title": "JK Flip-Flop (NAND Gates)",
+  "description": "Explore a rising-edge JK flip-flop built from eight NAND gates and an inverter. Change J and K and watch Q and its complement on the LEDs. At the next rising clock edge, 00 holds, 01 resets, 10 sets, and 11 toggles Q.",
+  "category": "Memory",
+  "difficulty": "intermediate",
+  "tags": [
+    "jk-flip-flop",
+    "memory",
+    "sequential-logic",
+    "nand",
+    "clock",
+    "feedback"
+  ],
+  "published": true
+}

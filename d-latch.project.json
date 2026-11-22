@@ -680,6 +680,34 @@
             "running": true
           }
         }
+      },
+      {
+        "id": "TEXT-569",
+        "name": "TEXT",
+        "pos": {
+          "x": -0.6372976528952881,
+          "y": 4.2363064676396975
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "1-bit memory  |  Transparent while CLK is high",
+            "fontSize": 0.23,
+            "color": "#93aabe",
+            "bold": false
+          }
+        }
       }
     ],
     "simulationSemantics": "strict",
@@ -867,7 +895,7 @@
         "endTerminalId": "JUNCTION-543"
       }
     ],
-    "nextComponentId": 569,
+    "nextComponentId": 570,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
