@@ -1,8 +1,8 @@
 {
   "format": "digital-logic-simulator-project",
   "version": 4,
-  "name": "D-flip-flop",
-  "savedAt": "2026-11-22T04:48:14.990Z",
+  "name": "D-latch",
+  "savedAt": "2026-11-22T04:58:18.850Z",
   "circuit": {
     "components": [
       {
@@ -399,40 +399,6 @@
         }
       },
       {
-        "id": "CLOCK-544",
-        "name": "CLOCK",
-        "pos": {
-          "x": -3.3648974034814616,
-          "y": 1.0649996185302735
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "output-value": {
-              "maxExpandedTerminals": 1
-            }
-          },
-          "state": {
-            "bitWidth": 1,
-            "useBusMode": false,
-            "frequencyHz": 1,
-            "dutyCycle": 0.5,
-            "running": true
-          }
-        }
-      },
-      {
         "id": "TOGGLE_SWITCH-545",
         "name": "TOGGLE_SWITCH",
         "pos": {
@@ -538,6 +504,180 @@
           },
           "state": {
             "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "TEXT-562",
+        "name": "TEXT",
+        "pos": {
+          "x": -0.6372976528952881,
+          "y": 4.6563064676396975
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "D-latch",
+            "fontSize": 0.35,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-563",
+        "name": "TEXT",
+        "pos": {
+          "x": -3.8627698894271933,
+          "y": 3.664999618530273
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "D",
+            "fontSize": 0.35,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-564",
+        "name": "TEXT",
+        "pos": {
+          "x": -4.091078674011621,
+          "y": 1.0649996185302735
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "CLK",
+            "fontSize": 0.35,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-565",
+        "name": "TEXT",
+        "pos": {
+          "x": 3.0445850280384157,
+          "y": 1.6149996185302733
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Q̅",
+            "fontSize": 0.35,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "TEXT-566",
+        "name": "TEXT",
+        "pos": {
+          "x": 3.0294078272320473,
+          "y": 3.1149996185302737
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "text": "Q",
+            "fontSize": 0.35,
+            "color": "#e9e9e9",
+            "bold": true
+          }
+        }
+      },
+      {
+        "id": "CLOCK-568",
+        "name": "CLOCK",
+        "pos": {
+          "x": -3.3648974034814616,
+          "y": 1.0649996185302735
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "frequencyHz": 1,
+            "dutyCycle": 0.5,
+            "running": true
           }
         }
       }
@@ -682,35 +822,26 @@
         "endTerminalId": "Terminal_NAND_GATE-532-input-2-1"
       },
       {
-        "id": "wire19",
-        "startComponentIndex": 13,
-        "startTerminalIndex": 0,
-        "endComponentIndex": 12,
-        "endTerminalIndex": 0,
-        "startTerminalId": "Terminal_CLOCK-544-output",
-        "endTerminalId": "JUNCTION-543"
-      },
-      {
         "id": "wire21",
         "startComponentIndex": 5,
         "startTerminalIndex": 0,
-        "endComponentIndex": 14,
+        "endComponentIndex": 13,
         "endTerminalIndex": 0,
         "startTerminalId": "JUNCTION-535",
         "endTerminalId": "Terminal_TOGGLE_SWITCH-545-output-1-1"
       },
       {
         "id": "wire22",
-        "startComponentIndex": 16,
+        "startComponentIndex": 15,
         "startTerminalIndex": 0,
-        "endComponentIndex": 17,
+        "endComponentIndex": 16,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_LED-550-input-1-1",
         "endTerminalId": "JUNCTION-551"
       },
       {
         "id": "wire23",
-        "startComponentIndex": 17,
+        "startComponentIndex": 16,
         "startTerminalIndex": 0,
         "endComponentIndex": 1,
         "endTerminalIndex": 2,
@@ -721,13 +852,22 @@
         "id": "wire25",
         "startComponentIndex": 0,
         "startTerminalIndex": 2,
-        "endComponentIndex": 15,
+        "endComponentIndex": 14,
         "endTerminalIndex": 0,
         "startTerminalId": "Terminal_NAND_GATE-530-output-1-1",
         "endTerminalId": "Terminal_LED-549-input-1-1"
+      },
+      {
+        "id": "wire26",
+        "startComponentIndex": 22,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 12,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_CLOCK-568-output",
+        "endTerminalId": "JUNCTION-543"
       }
     ],
-    "nextComponentId": 559,
+    "nextComponentId": 569,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
@@ -738,9 +878,9 @@
   },
   "workspace": {
     "center": {
-      "x": 0.07486177051376809,
-      "y": 2.337912833442512
+      "x": 1.7363710556165906,
+      "y": 2.014993171725527
     },
-    "zoom": 1.5683121854901663
+    "zoom": 1.3498588075759999
   }
 }

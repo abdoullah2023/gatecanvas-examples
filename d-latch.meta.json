@@ -1,0 +1,9 @@
+{
+  "id": "d-latch",
+  "title": "Gated D Latch (NAND Gates)",
+  "description": "Explore a 1-bit memory circuit built from four NAND gates and an inverter. Flip the data switch and watch the output LEDs. Q follows the data input while the clock is high and holds its last value while the clock is low. The second LED shows the complementary output.",
+  "category": "Memory",
+  "difficulty": "beginner",
+  "tags": ["d-latch", "memory", "sequential-logic", "nand", "clock", "feedback"],
+  "published": true
+}
