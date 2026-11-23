@@ -2,7 +2,7 @@
   "format": "digital-logic-simulator-project",
   "version": 4,
   "name": "p1",
-  "savedAt": "2026-11-23T03:37:15.583Z",
+  "savedAt": "2026-11-23T07:37:05.313Z",
   "circuit": {
     "components": [
       {
@@ -287,13 +287,344 @@
             "useBusMode": false
           }
         }
+      },
+      {
+        "id": "AND_GATE-833",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.484999999999999,
+          "y": -0.17276867245917504
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-4": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-5": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-6": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-7": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-8": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-9": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-10": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-11": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-12": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-13": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-14": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-15": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-16": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "AND_GATE-834",
+        "name": "AND_GATE",
+        "pos": {
+          "x": -1.4849999999999999,
+          "y": -1.2727686724591751
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-835",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -2.5072222222222207,
+          "y": 0.10223132754082498
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-836",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -2.5072222222222207,
+          "y": -0.44776867245917507
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-837",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -2.5072222222222216,
+          "y": -0.997768672459175
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-838",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": -2.507222222222222,
+          "y": -1.547768672459175
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-852",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -2.1849999999999987,
+          "y": 0.32723132754082496
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
       }
     ],
     "simulationSemantics": "strict",
     "pixelArtworks": [],
     "subcircuitDefinitions": [],
-    "wires": [],
-    "nextComponentId": 833,
+    "wires": [
+      {
+        "id": "wire13",
+        "startComponentIndex": 12,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-838-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-834-input-2-1"
+      },
+      {
+        "id": "wire15",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-837-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-834-input-1-1"
+      },
+      {
+        "id": "wire16",
+        "startComponentIndex": 10,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-836-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-833-input-2-1"
+      },
+      {
+        "id": "wire17",
+        "startComponentIndex": 9,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_TOGGLE_SWITCH-835-output-1-1",
+        "endTerminalId": "Terminal_AND_GATE-833-input-1-1"
+      }
+    ],
+    "nextComponentId": 855,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
@@ -304,9 +635,9 @@
   },
   "workspace": {
     "center": {
-      "x": -0.6158871095389211,
-      "y": 0.9318900133140703
+      "x": -2.2775660083961435,
+      "y": -0.2500258169860297
     },
-    "zoom": 1.349858807576003
+    "zoom": 5.668398632892178
   }
 }
