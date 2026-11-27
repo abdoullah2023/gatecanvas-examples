@@ -2,18 +2,471 @@
   "format": "digital-logic-simulator-project",
   "version": 4,
   "name": "p1",
-  "savedAt": "2026-11-23T07:37:05.313Z",
+  "savedAt": "2026-11-25T23:07:00.680Z",
   "circuit": {
     "components": [
       {
-        "id": "INVERTER_GATE-826",
-        "name": "INVERTER_GATE",
+        "id": "NAND_GATE-789",
+        "name": "NAND_GATE",
         "pos": {
-          "x": -7.399999999999999,
-          "y": 2.3
+          "x": 11.034834785498003,
+          "y": -1.5883893772430735
         },
         "groupName": null,
         "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 23,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-790",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 11.034834785498003,
+          "y": -3.145104822221945
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 24,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-791",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 9.26894083942998,
+          "y": -3.420104822221946
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 25,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-792",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 9.26894083942998,
+          "y": -1.3133893772430734
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 22,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-793",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 7.503046893361958,
+          "y": -1.0383893772430735
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 3,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-794",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 7.503046893361958,
+          "y": -3.6951048222219445
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 4,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 2,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-795",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 5.770099920327946,
+          "y": -3.970104822221944
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 6,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "NAND_GATE-796",
+        "name": "NAND_GATE",
+        "pos": {
+          "x": 5.770099920327946,
+          "y": -0.7633893772430733
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 0,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "input-1": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "input-2": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            },
+            "output-1": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            },
+            "input-3": {
+              "maxExpandedTerminals": 8,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "inputCount": 3,
+            "bitWidth": 1,
+            "useBusMode": false
+          }
+        }
+      },
+      {
+        "id": "INVERTER_GATE-797",
+        "name": "INVERTER_GATE",
+        "pos": {
+          "x": 5.770099920327946,
+          "y": -2.366747099732509
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 5,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
           "hidden": false,
           "locked": false,
           "rotation": 0,
@@ -43,14 +496,27 @@
         }
       },
       {
-        "id": "AND_GATE-827",
-        "name": "AND_GATE",
+        "id": "LED-798",
+        "name": "LED",
         "pos": {
-          "x": -5.199999999999999,
-          "y": 2.3
+          "x": 12.417781758532016,
+          "y": -1.588389377243073
         },
         "groupName": null,
         "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 28,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
           "hidden": false,
           "locked": false,
           "rotation": 0,
@@ -62,36 +528,34 @@
             "top": false,
             "bottom": false
           },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
           "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
+            "color": "#edc500",
+            "glowEnabled": true
           }
         }
       },
       {
-        "id": "OR_GATE-828",
-        "name": "OR_GATE",
+        "id": "LED-799",
+        "name": "LED",
         "pos": {
-          "x": -2.999999999999999,
-          "y": 2.3
+          "x": 12.417781758532016,
+          "y": -3.145104822221945
         },
         "groupName": null,
         "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 29,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
           "hidden": false,
           "locked": false,
           "rotation": 0,
@@ -103,467 +567,1208 @@
             "top": false,
             "bottom": false
           },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
           "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
+            "color": "#edc500",
+            "glowEnabled": true
           }
         }
       },
       {
-        "id": "NAND_GATE-829",
-        "name": "NAND_GATE",
-        "pos": {
-          "x": -0.799999999999999,
-          "y": 2.3
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "NOR_GATE-830",
-        "name": "NOR_GATE",
-        "pos": {
-          "x": 1.400000000000001,
-          "y": 2.3
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "XOR_GATE-831",
-        "name": "XOR_GATE",
-        "pos": {
-          "x": 3.600000000000001,
-          "y": 2.3
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "XNOR_GATE-832",
-        "name": "XNOR_GATE",
-        "pos": {
-          "x": 5.800000000000001,
-          "y": 2.3
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "AND_GATE-833",
-        "name": "AND_GATE",
-        "pos": {
-          "x": -1.484999999999999,
-          "y": -0.17276867245917504
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            },
-            "input-3": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-4": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-5": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-6": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-7": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-8": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-9": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-10": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-11": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-12": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-13": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-14": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-15": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-16": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "AND_GATE-834",
-        "name": "AND_GATE",
-        "pos": {
-          "x": -1.4849999999999999,
-          "y": -1.2727686724591751
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "input-1": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "input-2": {
-              "maxExpandedTerminals": 8,
-              "useBusMode": false
-            },
-            "output-1": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "inputCount": 2,
-            "bitWidth": 1,
-            "useBusMode": false
-          }
-        }
-      },
-      {
-        "id": "TOGGLE_SWITCH-835",
-        "name": "TOGGLE_SWITCH",
-        "pos": {
-          "x": -2.5072222222222207,
-          "y": 0.10223132754082498
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "output-value": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "bitWidth": 1,
-            "useBusMode": false,
-            "isOn": false
-          }
-        }
-      },
-      {
-        "id": "TOGGLE_SWITCH-836",
-        "name": "TOGGLE_SWITCH",
-        "pos": {
-          "x": -2.5072222222222207,
-          "y": -0.44776867245917507
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "output-value": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "bitWidth": 1,
-            "useBusMode": false,
-            "isOn": false
-          }
-        }
-      },
-      {
-        "id": "TOGGLE_SWITCH-837",
-        "name": "TOGGLE_SWITCH",
-        "pos": {
-          "x": -2.5072222222222216,
-          "y": -0.997768672459175
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "output-value": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "bitWidth": 1,
-            "useBusMode": false,
-            "isOn": false
-          }
-        }
-      },
-      {
-        "id": "TOGGLE_SWITCH-838",
-        "name": "TOGGLE_SWITCH",
-        "pos": {
-          "x": -2.507222222222222,
-          "y": -1.547768672459175
-        },
-        "groupName": null,
-        "geometry": {
-          "hidden": false,
-          "locked": false,
-          "rotation": 0,
-          "size": 1,
-          "terminalsInverted": false,
-          "terminalSidesInverted": {
-            "left": false,
-            "right": false,
-            "top": false,
-            "bottom": false
-          },
-          "terminalsGroup": {
-            "output-value": {
-              "maxExpandedTerminals": 1,
-              "useBusMode": false
-            }
-          },
-          "state": {
-            "bitWidth": 1,
-            "useBusMode": false,
-            "isOn": false
-          }
-        }
-      },
-      {
-        "id": "JUNCTION-852",
+        "id": "JUNCTION-800",
         "name": "JUNCTION",
         "pos": {
-          "x": -2.1849999999999987,
-          "y": 0.32723132754082496
+          "x": 11.734834785498002,
+          "y": -2.645104822221945
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 16,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-801",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -2.0883893772430735
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 15,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-802",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 11.734834785498002,
+          "y": -2.0883893772430735
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 19,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-803",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -2.645104822221945
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 17,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-806",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 8.568940839429981,
+          "y": -2.366747099732509
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 18,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-807",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 8.203046893361957,
+          "y": -3.1951048222219445
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 10,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-808",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 6.803046893361958,
+          "y": -1.5383893772430735
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 8,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-809",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 8.203046893361957,
+          "y": -1.5383893772430735
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 11,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-810",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 6.803046893361958,
+          "y": -3.1951048222219445
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 9,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-811",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -2.870104822221945
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 20,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-812",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -1.8633893772430734
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 21,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-813",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -4.59969407276652
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 14,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-814",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 5.070099920327946,
+          "y": -4.59969407276652
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 12,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-815",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 5.070099920327946,
+          "y": -0.13380012669849567
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 2,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-816",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 10.151887812463992,
+          "y": -0.13380012669849567
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 26,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-817",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": 4.387152947293934,
+          "y": -0.7633893772430733
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 1,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": true
+          }
+        }
+      },
+      {
+        "id": "TOGGLE_SWITCH-818",
+        "name": "TOGGLE_SWITCH",
+        "pos": {
+          "x": 4.387152947293934,
+          "y": -3.970104822221944
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 13,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1,
+              "useBusMode": false
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "isOn": false
+          }
+        }
+      },
+      {
+        "id": "CLOCK-819",
+        "name": "CLOCK",
+        "pos": {
+          "x": 4.387152947293934,
+          "y": -2.366747099732509
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 7,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "terminalsGroup": {
+            "output-value": {
+              "maxExpandedTerminals": 1
+            }
+          },
+          "state": {
+            "bitWidth": 1,
+            "useBusMode": false,
+            "frequencyHz": 1,
+            "dutyCycle": 0.5,
+            "running": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-826",
+        "name": "JUNCTION",
+        "pos": {
+          "x": 12.067781758532016,
+          "y": -1.588389377243073
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 27,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.05,
+            "size": 0.1,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#ffffff",
+            "bold": true
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "LED-830",
+        "name": "LED",
+        "pos": {
+          "x": -2.5339108495997404,
+          "y": -16.31406143817468
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 0,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.15,
+            "size": 0.35,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#b4becd",
+            "bold": false
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 3,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-831",
+        "name": "LED",
+        "pos": {
+          "x": -1.8339108495997396,
+          "y": -16.31406143817468
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 1,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.15,
+            "size": 0.35,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#b4becd",
+            "bold": false
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 3,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-832",
+        "name": "LED",
+        "pos": {
+          "x": -1.1339108495997399,
+          "y": -16.31406143817468
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 2,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.15,
+            "size": 0.35,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#b4becd",
+            "bold": false
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 3,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-833",
+        "name": "LED",
+        "pos": {
+          "x": -0.153534626277693,
+          "y": -16.31406143817468
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 3,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.15,
+            "size": 0.35,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#b4becd",
+            "bold": false
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 3,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "LED-834",
+        "name": "LED",
+        "pos": {
+          "x": 0.5464653737223071,
+          "y": -16.31406143817468
+        },
+        "groupName": null,
+        "geometry": {
+          "attachedLabel": {
+            "text": "p",
+            "prefixNumber": null,
+            "suffixNumber": 4,
+            "suffixNumberDisabled": false,
+            "side": "top",
+            "gap": 0.15,
+            "size": 0.35,
+            "rotation": 0,
+            "opacity": 1,
+            "color": "#b4becd",
+            "bold": false
+          },
+          "hidden": false,
+          "locked": false,
+          "rotation": 3,
+          "size": 1,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "color": "#edc500",
+            "glowEnabled": true
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-835",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.7622128309895693,
+          "y": -15.215055142465186
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-836",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.7622128309895693,
+          "y": -16.190080821185266
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-837",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.7148167937692281,
+          "y": -15.415055142465185
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-838",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.7148167937692281,
+          "y": -16.390080821185265
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-839",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.6674207565488871,
+          "y": -15.615055142465184
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-840",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.6674207565488871,
+          "y": -16.590080821185264
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-841",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.6200247193285461,
+          "y": -15.815055142465184
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-842",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.6200247193285461,
+          "y": -16.790080821185263
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-843",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.572628682108205,
+          "y": -16.015055142465183
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-844",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.572628682108205,
+          "y": -16.990080821185263
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-845",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.5252326448878638,
+          "y": -16.215055142465182
+        },
+        "groupName": null,
+        "geometry": {
+          "hidden": false,
+          "locked": false,
+          "rotation": 0,
+          "terminalsInverted": false,
+          "terminalSidesInverted": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "state": {
+            "bitWidth": 1
+          }
+        }
+      },
+      {
+        "id": "JUNCTION-846",
+        "name": "JUNCTION",
+        "pos": {
+          "x": -0.5252326448878638,
+          "y": -17.190080821185262
         },
         "groupName": null,
         "geometry": {
@@ -588,43 +1793,394 @@
     "subcircuitDefinitions": [],
     "wires": [
       {
-        "id": "wire13",
-        "startComponentIndex": 12,
+        "id": "wire213",
+        "startComponentIndex": 0,
         "startTerminalIndex": 0,
-        "endComponentIndex": 8,
+        "endComponentIndex": 3,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_NAND_GATE-789-input-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-792-output-1-1"
+      },
+      {
+        "id": "wire214",
+        "startComponentIndex": 3,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 4,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_NAND_GATE-792-input-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-793-output-1-1"
+      },
+      {
+        "id": "wire215",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 7,
+        "endTerminalIndex": 3,
+        "startTerminalId": "Terminal_NAND_GATE-793-input-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-796-output-1-1"
+      },
+      {
+        "id": "wire216",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 3,
+        "endComponentIndex": 5,
         "endTerminalIndex": 1,
-        "startTerminalId": "Terminal_TOGGLE_SWITCH-838-output-1-1",
-        "endTerminalId": "Terminal_AND_GATE-834-input-2-1"
+        "startTerminalId": "Terminal_NAND_GATE-795-output-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-794-input-2-1"
       },
       {
-        "id": "wire15",
-        "startComponentIndex": 11,
-        "startTerminalIndex": 0,
-        "endComponentIndex": 8,
-        "endTerminalIndex": 0,
-        "startTerminalId": "Terminal_TOGGLE_SWITCH-837-output-1-1",
-        "endTerminalId": "Terminal_AND_GATE-834-input-1-1"
+        "id": "wire217",
+        "startComponentIndex": 5,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 2,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_NAND_GATE-794-output-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-791-input-2-1"
       },
       {
-        "id": "wire16",
+        "id": "wire218",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 1,
+        "endTerminalIndex": 1,
+        "startTerminalId": "Terminal_NAND_GATE-791-output-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-790-input-2-1"
+      },
+      {
+        "id": "wire219",
         "startComponentIndex": 10,
         "startTerminalIndex": 0,
-        "endComponentIndex": 7,
-        "endTerminalIndex": 1,
-        "startTerminalId": "Terminal_TOGGLE_SWITCH-836-output-1-1",
-        "endTerminalId": "Terminal_AND_GATE-833-input-2-1"
+        "endComponentIndex": 1,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_LED-799-input-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-790-output-1-1"
       },
       {
-        "id": "wire17",
-        "startComponentIndex": 9,
+        "id": "wire220",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 29,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-789-output-1-1",
+        "endTerminalId": "JUNCTION-826"
+      },
+      {
+        "id": "wire221",
+        "startComponentIndex": 1,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 11,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-790-output-1-1",
+        "endTerminalId": "JUNCTION-800"
+      },
+      {
+        "id": "wire222",
+        "startComponentIndex": 11,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 12,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-800",
+        "endTerminalId": "JUNCTION-801"
+      },
+      {
+        "id": "wire223",
+        "startComponentIndex": 12,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 21,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-801",
+        "endTerminalId": "JUNCTION-812"
+      },
+      {
+        "id": "wire224",
+        "startComponentIndex": 0,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 13,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-789-output-1-1",
+        "endTerminalId": "JUNCTION-802"
+      },
+      {
+        "id": "wire225",
+        "startComponentIndex": 13,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 14,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-802",
+        "endTerminalId": "JUNCTION-803"
+      },
+      {
+        "id": "wire226",
+        "startComponentIndex": 14,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 20,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-803",
+        "endTerminalId": "JUNCTION-811"
+      },
+      {
+        "id": "wire232",
+        "startComponentIndex": 8,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 15,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_INVERTER_GATE-797-output-1-1",
+        "endTerminalId": "JUNCTION-806"
+      },
+      {
+        "id": "wire233",
+        "startComponentIndex": 5,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 16,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-794-output-1-1",
+        "endTerminalId": "JUNCTION-807"
+      },
+      {
+        "id": "wire234",
+        "startComponentIndex": 16,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 17,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-807",
+        "endTerminalId": "JUNCTION-808"
+      },
+      {
+        "id": "wire235",
+        "startComponentIndex": 17,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 4,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-808",
+        "endTerminalId": "Terminal_NAND_GATE-793-input-2-1"
+      },
+      {
+        "id": "wire236",
+        "startComponentIndex": 4,
+        "startTerminalIndex": 2,
+        "endComponentIndex": 18,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-793-output-1-1",
+        "endTerminalId": "JUNCTION-809"
+      },
+      {
+        "id": "wire237",
+        "startComponentIndex": 18,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 19,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-809",
+        "endTerminalId": "JUNCTION-810"
+      },
+      {
+        "id": "wire239",
+        "startComponentIndex": 20,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 1,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-811",
+        "endTerminalId": "Terminal_NAND_GATE-790-input-1-1"
+      },
+      {
+        "id": "wire240",
+        "startComponentIndex": 21,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 0,
+        "endTerminalIndex": 1,
+        "startTerminalId": "JUNCTION-812",
+        "endTerminalId": "Terminal_NAND_GATE-789-input-2-1"
+      },
+      {
+        "id": "wire241",
+        "startComponentIndex": 20,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 22,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-811",
+        "endTerminalId": "JUNCTION-813"
+      },
+      {
+        "id": "wire242",
+        "startComponentIndex": 22,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 23,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-813",
+        "endTerminalId": "JUNCTION-814"
+      },
+      {
+        "id": "wire243",
+        "startComponentIndex": 23,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 6,
+        "endTerminalIndex": 2,
+        "startTerminalId": "JUNCTION-814",
+        "endTerminalId": "Terminal_NAND_GATE-795-input-3-1"
+      },
+      {
+        "id": "wire244",
+        "startComponentIndex": 7,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 24,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-796-input-1-1",
+        "endTerminalId": "JUNCTION-815"
+      },
+      {
+        "id": "wire245",
+        "startComponentIndex": 24,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 25,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-815",
+        "endTerminalId": "JUNCTION-816"
+      },
+      {
+        "id": "wire246",
+        "startComponentIndex": 25,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 21,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-816",
+        "endTerminalId": "JUNCTION-812"
+      },
+      {
+        "id": "wire247",
+        "startComponentIndex": 8,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 28,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_INVERTER_GATE-797-input-1-1",
+        "endTerminalId": "Terminal_CLOCK-819-output"
+      },
+      {
+        "id": "wire248",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 27,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-795-input-2-1",
+        "endTerminalId": "Terminal_TOGGLE_SWITCH-818-output-1-1"
+      },
+      {
+        "id": "wire249",
+        "startComponentIndex": 7,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 26,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-796-input-2-1",
+        "endTerminalId": "Terminal_TOGGLE_SWITCH-817-output-1-1"
+      },
+      {
+        "id": "wire253",
+        "startComponentIndex": 6,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 8,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-795-input-1-1",
+        "endTerminalId": "Terminal_INVERTER_GATE-797-input-1-1"
+      },
+      {
+        "id": "wire254",
+        "startComponentIndex": 8,
         "startTerminalIndex": 0,
         "endComponentIndex": 7,
+        "endTerminalIndex": 2,
+        "startTerminalId": "Terminal_INVERTER_GATE-797-input-1-1",
+        "endTerminalId": "Terminal_NAND_GATE-796-input-3-1"
+      },
+      {
+        "id": "wire258",
+        "startComponentIndex": 19,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 5,
         "endTerminalIndex": 0,
-        "startTerminalId": "Terminal_TOGGLE_SWITCH-835-output-1-1",
-        "endTerminalId": "Terminal_AND_GATE-833-input-1-1"
+        "startTerminalId": "JUNCTION-810",
+        "endTerminalId": "Terminal_NAND_GATE-794-input-1-1"
+      },
+      {
+        "id": "wire259",
+        "startComponentIndex": 3,
+        "startTerminalIndex": 1,
+        "endComponentIndex": 15,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-792-input-2-1",
+        "endTerminalId": "JUNCTION-806"
+      },
+      {
+        "id": "wire260",
+        "startComponentIndex": 2,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 15,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_NAND_GATE-791-input-1-1",
+        "endTerminalId": "JUNCTION-806"
+      },
+      {
+        "id": "wire261",
+        "startComponentIndex": 9,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 29,
+        "endTerminalIndex": 0,
+        "startTerminalId": "Terminal_LED-798-input-1-1",
+        "endTerminalId": "JUNCTION-826"
+      },
+      {
+        "id": "wire262",
+        "startComponentIndex": 35,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 36,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-835",
+        "endTerminalId": "JUNCTION-836"
+      },
+      {
+        "id": "wire263",
+        "startComponentIndex": 37,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 38,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-837",
+        "endTerminalId": "JUNCTION-838"
+      },
+      {
+        "id": "wire264",
+        "startComponentIndex": 39,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 40,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-839",
+        "endTerminalId": "JUNCTION-840"
+      },
+      {
+        "id": "wire265",
+        "startComponentIndex": 41,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 42,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-841",
+        "endTerminalId": "JUNCTION-842"
+      },
+      {
+        "id": "wire266",
+        "startComponentIndex": 43,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 44,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-843",
+        "endTerminalId": "JUNCTION-844"
+      },
+      {
+        "id": "wire267",
+        "startComponentIndex": 45,
+        "startTerminalIndex": 0,
+        "endComponentIndex": 46,
+        "endTerminalIndex": 0,
+        "startTerminalId": "JUNCTION-845",
+        "endTerminalId": "JUNCTION-846"
       }
     ],
-    "nextComponentId": 855,
+    "nextComponentId": 847,
     "selectedComponentIds": [],
     "componentState": {
       "hiddenGroups": [],
@@ -635,9 +2191,9 @@
   },
   "workspace": {
     "center": {
-      "x": -2.2775660083961435,
-      "y": -0.2500258169860297
+      "x": -1.0889982754207341,
+      "y": -16.141089046649324
     },
-    "zoom": 5.668398632892178
+    "zoom": 3.110883127750686
   }
 }
